@@ -1,4 +1,4 @@
-Mon Jun 10 22:44:43 2013
+Mon Jun 10 23:40:59 2013
 Windows-7-6.1.7601-SP1
 Ren'Py 6.15.4.320
 Spring2Ren'Py test 0.1
@@ -250,32 +250,13 @@ Texture testing:
 - 1024px textures work.
 - 2048px textures work.
 Performance test:
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
 
 Windowed mode.
 Screen sizes: virtual=(800, 600) physical=(800, 600)
-- Frame drawn at 0.410000 seconds.
-- Frame drawn at 0.430000 seconds.
-- Frame drawn at 0.442000 seconds.
-- Frame drawn at 0.464000 seconds.
-- 0.464000 seconds to render 5 frames.
-- Frame drawn at 0.480000 seconds.
-- 0.070000 seconds to render 5 frames.
-Traceback (most recent call last):
-  File "J:\Games\Ren'Py\renpy-6.15.4-sdk\renpy\execution.py", line 288, in run
-    node.execute()
-  File "J:\Games\Ren'Py\renpy-6.15.4-sdk\renpy\ast.py", line 718, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "J:\Games\Ren'Py\renpy-6.15.4-sdk\renpy\python.py", line 1297, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/script.rpy", line 37, in <module>
-    $ subprocess.call([EXECUTABLE_DIR, SCRIPT_DIR])
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/subprocess.py", line 493, in call
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/subprocess.py", line 679, in __init__
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/subprocess.py", line 896, in _execute_child
-WindowsError: [Error 2] The system cannot find the file specified
-Deallocating textures.
-Done deallocating textures.
-About to quit GL.
-Finished quit GL.
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.016000 seconds.
+- Frame drawn at 0.032000 seconds.
+- Frame drawn at 0.054000 seconds.
+- Frame drawn at 0.071000 seconds.
+- 0.071000 seconds to render 5 frames.
