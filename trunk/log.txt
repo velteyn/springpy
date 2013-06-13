@@ -1,6 +1,6 @@
-Mon Jun 10 23:40:59 2013
+Fri Jun 14 00:59:58 2013
 Windows-7-6.1.7601-SP1
-Ren'Py 6.15.4.320
+Ren'Py 6.15.5.354
 Spring2Ren'Py test 0.1
 
 
@@ -250,13 +250,19 @@ Texture testing:
 - 1024px textures work.
 - 2048px textures work.
 Performance test:
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
 
 Windowed mode.
 Screen sizes: virtual=(800, 600) physical=(800, 600)
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.016000 seconds.
-- Frame drawn at 0.032000 seconds.
-- Frame drawn at 0.054000 seconds.
-- Frame drawn at 0.071000 seconds.
-- 0.071000 seconds to render 5 frames.
+- Frame drawn at 0.422000 seconds.
+- Frame drawn at 0.447000 seconds.
+- Frame drawn at 0.465000 seconds.
+- Frame drawn at 0.485000 seconds.
+- 0.485000 seconds to render 5 frames.
+- Frame drawn at 0.502000 seconds.
+- 0.080000 seconds to render 5 frames.
+Deallocating textures.
+Done deallocating textures.
+About to quit GL.
+Finished quit GL.

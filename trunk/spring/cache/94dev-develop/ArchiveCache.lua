@@ -2,7 +2,7 @@ local archiveCache = {
 
 	internalver = 9,
 
-	archives = {  -- count = 279
+	archives = {  -- count = 280
 		{
 			name = "1944_Prokhorovka_V2.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
@@ -844,7 +844,7 @@ local archiveCache = {
 		},
 		{
 			name = "DarkSide_Remake.sd7",
-			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			path = [[J:\Games\Ren'Py\Projects\SpringLink test\spring\maps\]],
 			modified = "1329391069",
 			checksum = "245012374",
 			archivedata = {
@@ -1192,7 +1192,7 @@ local archiveCache = {
 			modified = "1359987691",
 			checksum = "2607823090",
 			archivedata = {
-				autoshowmetal = 1,
+				autoshowmetal = 1.000000,
 				extractorradius = 100.000000,
 				gravity = 130.000000,
 				mapfile = "maps/EvoRTS-Glacier_Pass-v12.smf",
@@ -1200,10 +1200,10 @@ local archiveCache = {
 				maxmetal = 1.000000,
 				modtype = 3,
 				name = "EvoRTS - Glacier Pass - v12",
-				notdeformable = 0,
+				notdeformable = 0.000000,
 				tidalstrength = 0.000000,
 				version = "v12",
-				voidwater = 1,
+				voidwater = 1.000000,
 				depend = {
 					"Spring Features 1.0",
 				},
@@ -1557,7 +1557,7 @@ local archiveCache = {
 			checksum = "2159075527",
 			archivedata = {
 				author = "zwzsg",
-				autoshowmetal = 0,
+				autoshowmetal = 0.000000,
 				description = "Dynamically Generated Randomised Map",
 				extractorradius = 500.000000,
 				gravity = 50.000000,
@@ -1566,11 +1566,11 @@ local archiveCache = {
 				maxmetal = 0.100000,
 				modtype = 3,
 				name = "Hex Farm 6",
-				notdeformable = 0,
+				notdeformable = 0.000000,
 				shortname = "HexFarm",
 				tidalstrength = 20.000000,
 				version = "6",
-				voidwater = 1,
+				voidwater = 1.000000,
 			},
 		},
 		{
@@ -1657,7 +1657,7 @@ local archiveCache = {
 			checksum = "1736913136",
 			archivedata = {
 				author = "Shadowfury333",
-				autoshowmetal = 1,
+				autoshowmetal = 1.000000,
 				extractorradius = 32.000000,
 				gravity = 130.000000,
 				mapfile = "maps/Output.smf",
@@ -1665,11 +1665,11 @@ local archiveCache = {
 				maxmetal = 1.900000,
 				modtype = 3,
 				name = "Iced Coffee v3",
-				notdeformable = 0,
+				notdeformable = 0.000000,
 				shortname = "icedcoffee",
 				tidalstrength = 0.000000,
 				version = "v3",
-				voidwater = 0,
+				voidwater = 0.000000,
 			},
 		},
 		{
@@ -2519,6 +2519,25 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "SpringTutorialGame.sdz",
+			path = [[J:\Games\Ren'Py\Projects\SpringLink test\spring\games\]],
+			modified = "1371138663",
+			checksum = "3094103154",
+			archivedata = {
+				description = "Basic game to help new modders",
+				game = "STG",
+				modtype = 1,
+				name = "Spring Tutorial Game 0.1",
+				shortgame = "STG",
+				shortname = "STG",
+				url = "code.google.com/p/springtutorialgame",
+				version = "0.1",
+				depend = {
+					"cursors.sdz",
+				},
+			},
+		},
+		{
 			name = "StormSiege_v3.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1338654635",
@@ -2921,7 +2940,7 @@ local archiveCache = {
 			checksum = "3876752022",
 			archivedata = {
 				author = "Funkencool",
-				autoshowmetal = 1,
+				autoshowmetal = 1.000000,
 				description = "1v1v1 or 2v2v2",
 				extractorradius = 100.000000,
 				gravity = 130.000000,
@@ -2930,10 +2949,10 @@ local archiveCache = {
 				maxmetal = 4.000000,
 				modtype = 3,
 				name = "Trefoil_v2",
-				notdeformable = 0,
+				notdeformable = 0.000000,
 				shortname = "Trefoil",
 				tidalstrength = 0.000000,
-				voidwater = 0,
+				voidwater = 0.000000,
 			},
 		},
 		{
