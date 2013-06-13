@@ -1,4 +1,4 @@
-﻿# You can place the script of your game in this file.
+﻿# Code here is PUBLIC DOMAIN / CC-0; do whatever you like with it
 
 init:
     python:
@@ -6,8 +6,6 @@ init:
         import sys
         import traceback
         
-        # sample script provided in SVN: trunk/spring
-        # requires Zero-K v1.1.3.6 and map Green Comet Basic - edit script file if you want it to use something else 
         SPRING_DIR = sys.path[0] + "/spring"
         EXECUTABLE_DIR = SPRING_DIR + "/spring.exe"
         SCRIPT_FILENAME = "script_pytest.txt"
@@ -15,7 +13,7 @@ init:
         SCRIPT_FILENAME_TEMP = "_script.txt"
         SCRIPT_DIR_TEMP = SPRING_DIR + "/" + SCRIPT_FILENAME_TEMP
         RESULTS_DIR = SPRING_DIR + "/" + "results.py"
-        RESULTS_DIR_COMPILED = SPRING_DIR + "/" + "results.pyo"
+        RESULTS_DIR_COMPILED = SPRING_DIR + "/" + "results.pyo" # dunno if necessary to delete this as well
      
         sys.path.append(SPRING_DIR)
     
@@ -27,7 +25,7 @@ label start:
         python:
             loadFromSpringSuccessful = False
             try:
-                import results       # make sure this is the same as what your Spring gadget/widget outputs!
+                import results       # make sure this is the same as the file name of what your Spring gadget/widget outputs!
                 reload(results)      # importing only works once, so reload is required for subsequent attempts to read module
                 testValue = results.clock
                 print(testValue)
