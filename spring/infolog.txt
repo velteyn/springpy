@@ -1,0 +1,1377 @@
+Run: J:\Games\Ren'Py\Projects\SpringLink test/spring/spring.exe J:\Games\Ren'Py\Projects\SpringLink test/spring/_script.txt
+Using configuration source: "J:\Games\Ren'Py\Projects\SpringLink test\spring\springsettings.cfg"
+Using additional configuration source: "C:\Users\Rattlesnark\AppData\Local\springsettings.cfg"
+Using additional configuration source: "C:\Users\Rattlesnark\Documents\My Games\Spring\springsettings.cfg"
+Available log sections: KeyBindings, AutohostInterface, CSMFGroundTextures, RoamMeshDrawer, BumpWater, DynWater, SkyBox, DecalsDrawerGL4, FarTextureHandler, Model, Piece, ModelDrawer, OBJParser, WorldObjectModelRenderer, Shader, Texture, Font, GroundMoveType, Path, UnitScript, CregSerializer, ArchiveScanner, VFS, Sound, LuaSocket
+Enabled log sections: Sound(LOG_LEVEL_INFO)
+Enable or disable log sections using the LogSections configuration key
+  or the SPRING_LOG_SECTIONS environment variable (both comma separated).
+  Use "none" to disable the default log sections.
+LogOutput initialized.
+Spring 94.1.1-634-g3be44ed develop (OMP)
+Build date/time: Jun 12 2013 22:58:48
+Build environment: boost-105000, GNU libstdc++ version 20120920
+Compiler: gcc-4.7.2
+OS: Microsoft Windows
+Microsoft Windows 7 Home Premium Edition, 32-bit Service Pack 1 (build 7601)
+Intel(R) Core(TM) i5 CPU         760  @ 2.80GHz; 3543MB RAM, 7088MB pagefile
+OS: 32bit native mode
+[CMyMath::Init] CPU SSE mask: 127, flags:
+	SSE 1.0:  1,  SSE 2.0:  1
+	SSE 3.0:  1, SSSE 3.0:  1
+	SSE 4.1:  1,  SSE 4.2:  1
+	SSE 4.0A: 0,  SSE 5.0A: 0
+	using streflop SSE FP-math mode, CPU supports SSE instructions
+[Watchdog] Installed (HangTimeout: 10sec)
+[DataDirs] Portable Mode!
+Using read-write data directory: J:\Games\Ren'Py\Projects\SpringLink test\spring\
+Using read-only data directory: C:\Users\Rattlesnark\Documents\My Games\Spring\
+Using read-only data directory: C:\ProgramData\Spring\
+Archive cache doesn't exist: J:\Games\Ren'Py\Projects\SpringLink test\spring\cache\94dev-develop\ArchiveCache.lua
+Scanning: C:\Users\Rattlesnark\Documents\My Games\Spring\maps
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Albion_v1.sd7: The cost for reading a 2nd-class meta-file is too high: features/btreea.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Albion_v1.sd7: The cost for reading a 2nd-class meta-file is too high: features/btreeb.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Albion_v1.sd7: The cost for reading a 2nd-class meta-file is too high: features/btreec.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\altored_divide_remake_v3.sd7: The cost for reading a 2nd-class meta-file is too high: features/Altored.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AmazonDeltav20.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster0.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AmazonDeltav20.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster0_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AmazonDeltav20.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AmazonDeltav20.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster1_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AmazonDeltav20.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AmazonDeltav20.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster2_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AmazonDeltav20.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/palmetto_1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AmazonDeltav20.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/palmetto_2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AmazonDeltav20.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/palmetto_3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus4.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus5.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus6.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus7.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster0.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster0_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster1_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster2_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/palmetto_1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/palmetto_2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/palmetto_3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock1a.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock2a.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock3a.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock4.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\aquatic_divide_revised_v02.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock4a.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AVGSuperSpeedMetal_Xtrem.sd7: The cost for reading a 2nd-class meta-file is too high: units/TLLMEDFUSION.fbi
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AVGSuperSpeedMetal_Xtrem.sd7: The cost for reading a 2nd-class meta-file is too high: weapons/cowfusion.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AVGSuperSpeedMetal_Xtrem.sd7: The cost for reading a 2nd-class meta-file is too high: gamedata/explosions/explosionsx.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\AVGSuperSpeedMetal_Xtrem.sd7: The cost for reading a 2nd-class meta-file is too high: features/corpses/TLLMEDFUSION_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Dead_Reef_v7.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Armanac_world.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Dead_Reef_v7.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Armch_world.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Dead_Reef_v7.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Armfhp_world.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Dead_Reef_v7.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/armplat_world.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Dead_Reef_v7.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Armpt_world.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Dead_Reef_v7.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Armsy_world.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Dead_Reef_v7.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Decade_world.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus4.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus5.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus6.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus7.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/GreyRock2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/GreyRock3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/GreyRock4.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/GreyRock5.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DesertCliffsV1.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/GreyRock6.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/ad0_senegal.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster0.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster0_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster1_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster2_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/palmetto_1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/palmetto_2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/palmetto_3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\DunePatrol_wip_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/rocks.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Emain_Macha.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/MoonRock1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Emain_Macha.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/MoonRock2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Emain_Macha.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/MoonRock3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Emain_Macha.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/MoonRock4.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Emain_Macha.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/MoonRock5.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_fatpalm1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_fatpalm2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_fatpalm3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_fatpalm4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_palm1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_palm2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_palm3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_palm4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_palm5.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_palm6.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_shrub1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_shrub2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_shrub3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_shrub4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_shrub5.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_shrub6.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_shrub7.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/agorm/agorm_shrub8.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/boxcar_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/boxcar_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/boxcar_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/bunker_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/crane_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/crates_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/crates_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/crates_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/fence.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/forklift_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: weapons/fueltank.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: gamedata/explosions/fueltank_epx1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/holding_tank1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/holding_tank1_dead.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/holding_tank2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/holding_tank2_dead.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: gamedata/explosions/industrial_smoke.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/Industrial_smokestack_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/Industrial_smokestack_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: units/Industrial_smokestack_tall_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/Industrial_smokestack_tall_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/Industrial_structure_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/Industrial_structure_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/Industrial_structure_pipes_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: units/long_neutralfedwall.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: units/long_neutralzeonwall.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: units/neutralfedwall.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: units/neutralfueltank1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: units/neutralIndustrial_smokestack_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: units/neutralIndustrial_smokestack_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: units/neutralradar.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: units/neutralzeonwall.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/pipe_large_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/pipe_large_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/pipe_long_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/pipe_long_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/pipe_really_tall_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/pipe_small_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/pipe_small_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/pipe_small_2.lua.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/pipe_tall_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/pipe_tall_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/radardish_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/raddome_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: gamedata/resources_map.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/ship_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/ship_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/silo_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/storage_sheds_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/streetlamp_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/streetlamp_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/streetlamp_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/tent_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/Trailer_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/trainengine_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_fortified_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_large_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_large_2 .lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_large_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_large_dead.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_small_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_small_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_small_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_small_4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_small_5.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/warehouse_small_dead.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\grts_gunmetal_harbor_12.sd7: The cost for reading a 2nd-class meta-file is too high: features/smoth/watertower_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/btreebhi_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/btreebhi_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/btreebhi_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/btreebhi_4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/btreebhi_5.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/fern1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/fern2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/fern3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/fern4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/fern5.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/fern6.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/fern7.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Hide_and_Seek_v03.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/fern8.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\intersection_v3.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/streetlamp_1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\jungle_MoonQ20x_remake.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster0.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\jungle_MoonQ20x_remake.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster0_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\jungle_MoonQ20x_remake.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\jungle_MoonQ20x_remake.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster1_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\jungle_MoonQ20x_remake.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\jungle_MoonQ20x_remake.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/cluster2_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\jungle_MoonQ20x_remake.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/palmetto_1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\jungle_MoonQ20x_remake.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/palmetto_2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\jungle_MoonQ20x_remake.sd7: The cost for reading a 2nd-class meta-file is too high: features/all worlds/palmetto_3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus4.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus5.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus6.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/Cactus7.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster0.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster0_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster1_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/cluster2_dead.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/palmetto_1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/palmetto_2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/palmetto_3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock1a.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock2a.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock3a.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock4.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Lowland Crossing Revised v2.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/pdrock4a.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/tdf2lua.py
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/LICENSE.txt
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_baobab_0.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_baobab_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_baobab_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_baobab_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_baobab_4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_l_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_l_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_l_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_l_4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_l_5.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_l_6.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_l_7.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_l_8.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_m_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_m_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_m_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_m_4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_m_5.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_m_6.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_m_7.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_s_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_s_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_s_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_s_4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_s_5.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_s_6.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_s_7.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_xl_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_xl_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_xl_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_xl_4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_xl_5.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_xl_6.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes_xl_7.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_1.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_1_large.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_2.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_2_large.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_3.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_3_large.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_4.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_4_large.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_5.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_5_large.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_6.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_6_large.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_7.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_7_large.lua
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\minitabula-beta.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\mountain_pass_v4.sd7: The cost for reading a 2nd-class meta-file is too high: features/Altored.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/LICENSE.txt
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_1_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_2_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_3_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_4.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_4_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_5.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_5_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_6.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_6_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_7.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_7_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\splinteredtropicsdryv2.sd7: The cost for reading a 2nd-class meta-file is too high: features/oga_plants.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/tdf2lua.py
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/LICENSE.txt
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_baobab_0.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_baobab_1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_baobab_2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_baobab_3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_baobab_4.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_bushes2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_1.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_1_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_2.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_2_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_3.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_3_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_4.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_4_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_5.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_5_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_6.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_6_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_7.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Tabula-v5b.sd7: The cost for reading a 2nd-class meta-file is too high: features/ad0_senegal_7_large.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\The_Cold_Place_Remake_V3b.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/tcpice.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\The_Cold_Place_Remake_V3c.sd7: The cost for reading a 2nd-class meta-file is too high: features/All Worlds/tcpice.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Vittra_v1.sd7: The cost for reading a 2nd-class meta-file is too high: features/birches.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Vittra_v1.sd7: The cost for reading a 2nd-class meta-file is too high: features/bushes.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Vittra_v1.sd7: The cost for reading a 2nd-class meta-file is too high: features/maples.tdf
+[ArchiveScanner] Warning: Archive C:\Users\Rattlesnark\Documents\My Games\Spring\maps\Vittra_v1.sd7: The cost for reading a 2nd-class meta-file is too high: features/oaks.tdf
+Scanning: C:\Users\Rattlesnark\Documents\My Games\Spring\base
+Scanning: C:\Users\Rattlesnark\Documents\My Games\Spring\games
+Warning: [Watchdog] Hang detection triggered for Spring 94.1.1-634-g3be44ed develop (OMP).
+Warning:   (in thread: main)
+Warning: DLL information:
+Error: 0x00400000	spring
+Error: 0x779e0000	ntdll
+Error: 0x76430000	kernel32
+Error: 0x75ce0000	KERNELBASE
+Error: 0x75b40000	snxhk
+Error: 0x10000000	DevIL
+Error: 0x72530000	MSVCP80
+Error: 0x72490000	MSVCR80
+Error: 0x76930000	msvcrt
+Error: 0x75e70000	USER32
+Error: 0x76880000	GDI32
+Error: 0x77b70000	LPK
+Error: 0x76530000	USP10
+Error: 0x767e0000	ADVAPI32
+Error: 0x765d0000	sechost
+Error: 0x777d0000	RPCRT4
+Error: 0x69150000	GLU32
+Error: 0x69180000	OPENGL32
+Error: 0x67b80000	DDRAW
+Error: 0x67b70000	DCIMAN32
+Error: 0x77630000	SETUPAPI
+Error: 0x75cb0000	CFGMGR32
+Error: 0x76080000	OLEAUT32
+Error: 0x76110000	ole32
+Error: 0x75d30000	DEVOBJ
+Error: 0x74760000	dwmapi
+Error: 0x77be0000	IMAGEHLP
+Error: 0x62480000	pthreadGC2
+Error: 0x721a0000	WSOCK32
+Error: 0x77b20000	WS2_32
+Error: 0x76510000	NSI
+Error: 0x769e0000	SHELL32
+Error: 0x77b80000	SHLWAPI
+Error: 0x6b600000	OpenAL32
+Error: 0x72830000	WINMM
+Error: 0x70780000	vorbisfile
+Error: 0x68140000	ogg
+Error: 0x64cc0000	vorbis
+Error: 0x62e80000	zlib1
+Error: 0x66fc0000	freetype6
+Error: 0x62aa0000	glew32
+Error: 0x01320000	SDL
+Error: 0x7c340000	MSVCR71
+Error: 0x76060000	IMM32
+Error: 0x77880000	MSCTF
+Error: 0x72770000	dsound
+Error: 0x75560000	POWRPROF
+Error: 0x75a80000	CRYPTBASE
+Error: 0x77950000	CLBCatQ
+Error: 0x747b0000	MMDevApi
+Error: 0x748d0000	PROPSYS
+Error: 0x6e140000	wdmaud
+Error: 0x6ef90000	ksuser
+Error: 0x75530000	AVRT
+Error: 0x73e50000	AUDIOSES
+Error: 0x6ee50000	msacm32
+Error: 0x6ec10000	MSACM32
+Error: 0x6ee40000	midimap
+Error: 0x75ad0000	profapi
+Error: 0x720a0000	dbghelp
+Warning: Stacktrace (main):
+Warning: (0) C:\Windows\SYSTEM32\ntdll.dll(KiFastSystemCallRet+0) [0x77A270B4]
+Warning: (1) C:\Windows\system32\kernel32.dll(CreateFileW+0x4a) [0x7647E8EF]
+Warning: (2) C:\Windows\system32\kernel32.dll(CreateFileA+0x36) [0x7647EA97]
+Warning: (3) C:\Windows\system32\msvcrt.dll(clearerr_s+0x75b) [0x7694A310]
+Warning: (4) C:\Windows\system32\msvcrt.dll(sopen_s+0x79) [0x7694A789]
+Warning: (5) C:\Windows\system32\msvcrt.dll(sopen_s+0x1b) [0x7694A72B]
+Warning: (6) C:\Windows\system32\msvcrt.dll(remove+0x137) [0x7694A628]
+Warning: (7) C:\Windows\system32\msvcrt.dll(fsopen+0x6a) [0x7694A6C1]
+Warning: (8) C:\Windows\system32\msvcrt.dll(fopen+0x12) [0x7694B2D6]
+Warning: (9) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3d3f8b) [0x00BE54FB]
+Warning: (10) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3d528a) [0x00BE67FA]
+Warning: (11) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x67d2c) [0x0087929C]
+Warning: (12) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007D9DA1]
+Warning: (13) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DAE67]
+Warning: (14) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DB7B7]
+Warning: (15) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DBB27]
+Warning: (16) C:\Windows\system32\KERNELBASE.dll(LoadLibraryExA+0x32) [0x75CE8FF0]
+Warning: (17) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007E70DD]
+Warning: Failed to scan C:\Users\Rattlesnark\Documents\My Games\Spring\games\Gun Wings Test 4.sd7 (missing modinfo.lua/mapinfo.lua)
+Warning: Failed to scan C:\Users\Rattlesnark\Documents\My Games\Spring\games\X-Plane.sd7 (missing modinfo.lua/mapinfo.lua)
+Warning: [Watchdog] Hang detection triggered for Spring 94.1.1-634-g3be44ed develop (OMP).
+Warning:   (in thread: main)
+Warning: DLL information:
+Error: 0x00400000	spring
+Error: 0x779e0000	ntdll
+Error: 0x76430000	kernel32
+Error: 0x75ce0000	KERNELBASE
+Error: 0x75b40000	snxhk
+Error: 0x10000000	DevIL
+Error: 0x72530000	MSVCP80
+Error: 0x72490000	MSVCR80
+Error: 0x76930000	msvcrt
+Error: 0x75e70000	USER32
+Error: 0x76880000	GDI32
+Error: 0x77b70000	LPK
+Error: 0x76530000	USP10
+Error: 0x767e0000	ADVAPI32
+Error: 0x765d0000	sechost
+Error: 0x777d0000	RPCRT4
+Error: 0x69150000	GLU32
+Error: 0x69180000	OPENGL32
+Error: 0x67b80000	DDRAW
+Error: 0x67b70000	DCIMAN32
+Error: 0x77630000	SETUPAPI
+Error: 0x75cb0000	CFGMGR32
+Error: 0x76080000	OLEAUT32
+Error: 0x76110000	ole32
+Error: 0x75d30000	DEVOBJ
+Error: 0x74760000	dwmapi
+Error: 0x77be0000	IMAGEHLP
+Error: 0x62480000	pthreadGC2
+Error: 0x721a0000	WSOCK32
+Error: 0x77b20000	WS2_32
+Error: 0x76510000	NSI
+Error: 0x769e0000	SHELL32
+Error: 0x77b80000	SHLWAPI
+Error: 0x6b600000	OpenAL32
+Error: 0x72830000	WINMM
+Error: 0x70780000	vorbisfile
+Error: 0x68140000	ogg
+Error: 0x64cc0000	vorbis
+Error: 0x62e80000	zlib1
+Error: 0x66fc0000	freetype6
+Error: 0x62aa0000	glew32
+Error: 0x01320000	SDL
+Error: 0x7c340000	MSVCR71
+Error: 0x76060000	IMM32
+Error: 0x77880000	MSCTF
+Error: 0x72770000	dsound
+Error: 0x75560000	POWRPROF
+Error: 0x75a80000	CRYPTBASE
+Error: 0x77950000	CLBCatQ
+Error: 0x747b0000	MMDevApi
+Error: 0x748d0000	PROPSYS
+Error: 0x6e140000	wdmaud
+Error: 0x6ef90000	ksuser
+Error: 0x75530000	AVRT
+Error: 0x73e50000	AUDIOSES
+Error: 0x6ee50000	msacm32
+Error: 0x6ec10000	MSACM32
+Error: 0x6ee40000	midimap
+Error: 0x75ad0000	profapi
+Error: 0x720a0000	dbghelp
+Warning: Stacktrace (main):
+Warning: (0) C:\Windows\SYSTEM32\ntdll.dll(KiFastSystemCallRet+0) [0x77A270B4]
+Warning: (1) C:\Windows\system32\kernel32.dll(CreateFileW+0x4a) [0x7647E8EF]
+Warning: (2) C:\Windows\system32\kernel32.dll(CreateFileA+0x36) [0x7647EA97]
+Warning: (3) C:\Windows\system32\msvcrt.dll(clearerr_s+0x75b) [0x7694A310]
+Warning: (4) C:\Windows\system32\msvcrt.dll(sopen_s+0x79) [0x7694A789]
+Warning: (5) C:\Windows\system32\msvcrt.dll(sopen_s+0x1b) [0x7694A72B]
+Warning: (6) C:\Windows\system32\msvcrt.dll(remove+0x137) [0x7694A628]
+Warning: (7) C:\Windows\system32\msvcrt.dll(fsopen+0x6a) [0x7694A6C1]
+Warning: (8) C:\Windows\system32\msvcrt.dll(fopen+0x12) [0x7694B2D6]
+Warning: (9) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3d3f8b) [0x00BE54FB]
+Warning: (10) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3d528a) [0x00BE67FA]
+Warning: (11) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x67d2c) [0x0087929C]
+Warning: (12) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007D9DA1]
+Warning: (13) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DAE67]
+Warning: (14) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DB7B7]
+Warning: (15) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DBB27]
+Warning: (16) C:\Windows\system32\KERNELBASE.dll(LoadLibraryExA+0x32) [0x75CE8FF0]
+Warning: (17) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007E70DD]
+Warning: [Watchdog] Hang detection triggered for Spring 94.1.1-634-g3be44ed develop (OMP).
+Warning:   (in thread: main)
+Warning: DLL information:
+Error: 0x00400000	spring
+Error: 0x779e0000	ntdll
+Error: 0x76430000	kernel32
+Error: 0x75ce0000	KERNELBASE
+Error: 0x75b40000	snxhk
+Error: 0x10000000	DevIL
+Error: 0x72530000	MSVCP80
+Error: 0x72490000	MSVCR80
+Error: 0x76930000	msvcrt
+Error: 0x75e70000	USER32
+Error: 0x76880000	GDI32
+Error: 0x77b70000	LPK
+Error: 0x76530000	USP10
+Error: 0x767e0000	ADVAPI32
+Error: 0x765d0000	sechost
+Error: 0x777d0000	RPCRT4
+Error: 0x69150000	GLU32
+Error: 0x69180000	OPENGL32
+Error: 0x67b80000	DDRAW
+Error: 0x67b70000	DCIMAN32
+Error: 0x77630000	SETUPAPI
+Error: 0x75cb0000	CFGMGR32
+Error: 0x76080000	OLEAUT32
+Error: 0x76110000	ole32
+Error: 0x75d30000	DEVOBJ
+Error: 0x74760000	dwmapi
+Error: 0x77be0000	IMAGEHLP
+Error: 0x62480000	pthreadGC2
+Error: 0x721a0000	WSOCK32
+Error: 0x77b20000	WS2_32
+Error: 0x76510000	NSI
+Error: 0x769e0000	SHELL32
+Error: 0x77b80000	SHLWAPI
+Error: 0x6b600000	OpenAL32
+Error: 0x72830000	WINMM
+Error: 0x70780000	vorbisfile
+Error: 0x68140000	ogg
+Error: 0x64cc0000	vorbis
+Error: 0x62e80000	zlib1
+Error: 0x66fc0000	freetype6
+Error: 0x62aa0000	glew32
+Error: 0x01320000	SDL
+Error: 0x7c340000	MSVCR71
+Error: 0x76060000	IMM32
+Error: 0x77880000	MSCTF
+Error: 0x72770000	dsound
+Error: 0x75560000	POWRPROF
+Error: 0x75a80000	CRYPTBASE
+Error: 0x77950000	CLBCatQ
+Error: 0x747b0000	MMDevApi
+Error: 0x748d0000	PROPSYS
+Error: 0x6e140000	wdmaud
+Error: 0x6ef90000	ksuser
+Error: 0x75530000	AVRT
+Error: 0x73e50000	AUDIOSES
+Error: 0x6ee50000	msacm32
+Error: 0x6ec10000	MSACM32
+Error: 0x6ee40000	midimap
+Error: 0x75ad0000	profapi
+Error: 0x720a0000	dbghelp
+Warning: Stacktrace (main):
+Warning: (0) C:\Windows\SYSTEM32\ntdll.dll(KiFastSystemCallRet+0) [0x77A270B4]
+Warning: (1) C:\Windows\system32\kernel32.dll(CreateFileW+0x4a) [0x7647E8EF]
+Warning: (2) C:\Windows\system32\kernel32.dll(CreateFileA+0x36) [0x7647EA97]
+Warning: (3) C:\Windows\system32\msvcrt.dll(clearerr_s+0x75b) [0x7694A310]
+Warning: (4) C:\Windows\system32\msvcrt.dll(sopen_s+0x79) [0x7694A789]
+Warning: (5) C:\Windows\system32\msvcrt.dll(sopen_s+0x1b) [0x7694A72B]
+Warning: (6) C:\Windows\system32\msvcrt.dll(remove+0x137) [0x7694A628]
+Warning: (7) C:\Windows\system32\msvcrt.dll(fsopen+0x6a) [0x7694A6C1]
+Warning: (8) C:\Windows\system32\msvcrt.dll(fopen+0x12) [0x7694B2D6]
+Warning: (9) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3d3f8b) [0x00BE54FB]
+Warning: (10) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3d528a) [0x00BE67FA]
+Warning: (11) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x67d2c) [0x0087929C]
+Warning: (12) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007D9DA1]
+Warning: (13) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DAE67]
+Warning: (14) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DB7B7]
+Warning: (15) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DBB27]
+Warning: (16) C:\Windows\system32\KERNELBASE.dll(LoadLibraryExA+0x32) [0x75CE8FF0]
+Warning: (17) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007E70DD]
+Warning: [Watchdog] Hang detection triggered for Spring 94.1.1-634-g3be44ed develop (OMP).
+Warning:   (in thread: main)
+Warning: DLL information:
+Error: 0x00400000	spring
+Error: 0x779e0000	ntdll
+Error: 0x76430000	kernel32
+Error: 0x75ce0000	KERNELBASE
+Error: 0x75b40000	snxhk
+Error: 0x10000000	DevIL
+Error: 0x72530000	MSVCP80
+Error: 0x72490000	MSVCR80
+Error: 0x76930000	msvcrt
+Error: 0x75e70000	USER32
+Error: 0x76880000	GDI32
+Error: 0x77b70000	LPK
+Error: 0x76530000	USP10
+Error: 0x767e0000	ADVAPI32
+Error: 0x765d0000	sechost
+Error: 0x777d0000	RPCRT4
+Error: 0x69150000	GLU32
+Error: 0x69180000	OPENGL32
+Error: 0x67b80000	DDRAW
+Error: 0x67b70000	DCIMAN32
+Error: 0x77630000	SETUPAPI
+Error: 0x75cb0000	CFGMGR32
+Error: 0x76080000	OLEAUT32
+Error: 0x76110000	ole32
+Error: 0x75d30000	DEVOBJ
+Error: 0x74760000	dwmapi
+Error: 0x77be0000	IMAGEHLP
+Error: 0x62480000	pthreadGC2
+Error: 0x721a0000	WSOCK32
+Error: 0x77b20000	WS2_32
+Error: 0x76510000	NSI
+Error: 0x769e0000	SHELL32
+Error: 0x77b80000	SHLWAPI
+Error: 0x6b600000	OpenAL32
+Error: 0x72830000	WINMM
+Error: 0x70780000	vorbisfile
+Error: 0x68140000	ogg
+Error: 0x64cc0000	vorbis
+Error: 0x62e80000	zlib1
+Error: 0x66fc0000	freetype6
+Error: 0x62aa0000	glew32
+Error: 0x01320000	SDL
+Error: 0x7c340000	MSVCR71
+Error: 0x76060000	IMM32
+Error: 0x77880000	MSCTF
+Error: 0x72770000	dsound
+Error: 0x75560000	POWRPROF
+Error: 0x75a80000	CRYPTBASE
+Error: 0x77950000	CLBCatQ
+Error: 0x747b0000	MMDevApi
+Error: 0x748d0000	PROPSYS
+Error: 0x6e140000	wdmaud
+Error: 0x6ef90000	ksuser
+Error: 0x75530000	AVRT
+Error: 0x73e50000	AUDIOSES
+Error: 0x6ee50000	msacm32
+Error: 0x6ec10000	MSACM32
+Error: 0x6ee40000	midimap
+Error: 0x75ad0000	profapi
+Error: 0x720a0000	dbghelp
+Warning: Stacktrace (main):
+Warning: (0) C:\Windows\SYSTEM32\ntdll.dll(KiFastSystemCallRet+0) [0x77A270B4]
+Warning: (1) C:\Windows\system32\kernel32.dll(CreateFileW+0x4a) [0x7647E8EF]
+Warning: (2) C:\Windows\system32\kernel32.dll(CreateFileA+0x36) [0x7647EA97]
+Warning: (3) C:\Windows\system32\msvcrt.dll(clearerr_s+0x75b) [0x7694A310]
+Warning: (4) C:\Windows\system32\msvcrt.dll(sopen_s+0x79) [0x7694A789]
+Warning: (5) C:\Windows\system32\msvcrt.dll(sopen_s+0x1b) [0x7694A72B]
+Warning: (6) C:\Windows\system32\msvcrt.dll(remove+0x137) [0x7694A628]
+Warning: (7) C:\Windows\system32\msvcrt.dll(fsopen+0x6a) [0x7694A6C1]
+Warning: (8) C:\Windows\system32\msvcrt.dll(fopen+0x12) [0x7694B2D6]
+Warning: (9) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3d3f8b) [0x00BE54FB]
+Warning: (10) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3d528a) [0x00BE67FA]
+Warning: (11) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x67d2c) [0x0087929C]
+Warning: (12) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007D5692]
+Warning: (13) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x67ae8) [0x00879058]
+Warning: (14) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3c8ac9) [0x00BDA039]
+Warning: (15) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x67b43) [0x008790B3]
+Warning: (16) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DAE67]
+Warning: (17) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DB7B7]
+Warning: (18) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007DBB27]
+Warning: (19) C:\Windows\system32\KERNELBASE.dll(LoadLibraryExA+0x32) [0x75CE8FF0]
+Warning: (20) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x007E70DD]
+Scanning: C:\Users\Rattlesnark\Documents\My Games\Spring\packages
+Scanning: J:\Games\Ren'Py\Projects\SpringLink test\spring\base
+Supported Video modes: 1920x1080, 1776x1000, 1680x1050, 1600x900, 1440x900, 1400x1050, 1366x768, 1360x1024, 1360x768, 1280x1024, 1280x960, 1280x800, 1280x768, 1280x720, 1152x864, 1152x648, 1024x768, 800x600, 720x576, 720x480, 640x480
+Video mode set to 1440x900/32bit (windowed)
+[f=0000000] SDL version:  1.2.10
+[f=0000000] GL version:   4.2.12002 Compatibility Profile Context 9.12.0.0
+[f=0000000] GL vendor:    ATI Technologies Inc.
+[f=0000000] GL renderer:  ATI Radeon HD 5700 Series
+[f=0000000] GLSL version: 4.20
+[f=0000000] GLEW version: 1.5.8
+[f=0000000] Video RAM:    unknown
+[f=0000000] GL info:
+	haveARB: 1, haveGLSL: 1, ATI hacks: 1
+	FBO support: 1, NPOT-texture support: 1, 24bit Z-buffer support: 0
+	maximum texture size: 16384, compress MIP-map textures: 0
+	maximum SmoothPointSize: 63, maximum vec4 varying/attributes: 32/29
+	maximum drawbuffers: 8, maximum recommended indices/vertices: 16777215/2147483647
+	number of UniformBufferBindings: 75 (64kB)
+[f=0000000] VSync disabled
+[f=0000000] Joysticks found: 0
+[f=0000000] Warning: Joystick 0 not found
+[f=0000000] CPU Cores: 4
+[f=0000000] Loading startscript from: J:\Games\Ren'Py\Projects\SpringLink test/spring/_script.txt
+[f=0000000] Connecting to local server
+[f=0000000] Binding UDP socket to IP (v6) :: port 8452
+[f=0000000] [UDPListener] successfully bound socket on port 8452
+[f=0000000] PreGame::StartServer: 50 ms
+[f=0000000] Using map: Green Comet Basic
+[f=0000000] Using game: Zero-K $VERSION
+[f=0000000] [Sound] OpenAL info:
+[f=0000000] [Sound]   Available Devices:
+[f=0000000] [Sound]               DirectSound Software
+[f=0000000] [Sound]   Device:     DirectSound Software
+[f=0000000] [Sound]   Vendor:         OpenAL Community
+[f=0000000] [Sound]   Version:        1.1 ALSOFT 1.11.753
+[f=0000000] [Sound]   Renderer:       OpenAL Soft
+[f=0000000] [Sound]   AL Extensions:  AL_EXTX_buffer_sub_data AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_OFFSET AL_EXTX_sample_buffer_object AL_EXT_source_distance_model AL_LOKI_quadriphonic
+[f=0000000] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_disconnect ALC_EXT_EFX ALC_EXTX_thread_local_context
+[f=0000000] [Sound]   EFX Enabled: yes
+[f=0000000] [Sound]   Max Sounds: 128
+[f=0000000] Using game archive: zk.sdd
+[f=0000000] recording demo: demos/20130613_215407_Green Comet Basic_94.1.1-634-g3be44ed develop.sdf
+[f=0000000] PreGame::GameDataReceived: 8596 ms
+[f=0000000] User number 0 (team 2, allyteam 0)
+[f=0000000] [Threading] Main thread CPU affinity mask set: 12
+[f=0000000] Loading Radar Icons
+[f=0000000] Loading GameData Definitions
+[f=0000000] pw_artefact
+[f=0000000] pw_wormhole
+[f=0000000] pw_bombercontrol
+[f=0000000] pw_dropdepot
+[f=0000000] pw_warpjammer
+[f=0000000] pw_warpgate
+[f=0000000] pw_wormhole2
+[f=0000000] pw_dropfac
+[f=0000000] pw_generictech
+[f=0000000] Loading all definitions:  2.887000
+[f=0000000] Game::LoadDefs (GameData): 3076 ms
+[f=0000000] Loading Sound Definitions
+[f=0000000] [Sound] Warning: Sound incomingchat is missing file tag (ignoring)
+[f=0000000] [Sound]  parsed 141 sounds from gamedata/sounds.lua
+[f=0000000] [Sound] Error: Unable to open audio file: IncomingChat
+[f=0000000] [Sound] Error: CSound::GetSoundId: could not find sound: IncomingChat
+[f=0000000] Game::LoadDefs (Sound): 44 ms
+[f=0000000] Parsing Map Information
+[f=0000000] Loading SMF
+[f=0000000] Loading Map (77 MB)
+[f=0000000] Creating Smooth Height Mesh
+[f=0000000] SmoothHeightMesh::MakeSmoothMesh: 94 ms
+[f=0000000] Creating QuadField & CEGs
+[f=0000000] Number of damage types: 9
+[f=0000000] [RegisterAssimpModelFormats] supported Assimp model formats: *.3d;*.3ds;*.ac;*.ac3d;*.acc;*.ase;*.ask;*.b3d;*.blend;*.bvh;*.cob;*.csm;*.dae;*.dxf;*.enff;*.hmp;*.ifc;*.irr;*.irrmesh;*.lwo;*.lws;*.lxo;*.m3;*.md2;*.md3;*.md5anim;*.md5camera;*.md5mesh;*.mdc;*.mdl;*.mesh.xml;*.mot;*.ms3d;*.ndo;*.nff;*.obj;*.off;*.pk3;*.ply;*.prj;*.q3o;*.q3s;*.raw;*.scn;*.smd;*.stl;*.ter;*.uc;*.vta;*.x;*.xgl;*.xml;*.zgl;
+[f=0000000] Creating Unit Textures
+[f=0000000] Creating Sky
+[f=0000000] Loading Weapon Definitions
+[f=0000000] Loading Unit Definitions
+[f=0000000] Loading Feature Definitions
+[f=0000000] PathCosts: creating PE8 cache with 4 PF threads (42 MB)
+[f=0000000] PathCosts: precached 0 of 12288 blocks
+[f=0000000] PathCosts: precached 769 of 12288 blocks
+[f=0000000] PathCosts: precached 1578 of 12288 blocks
+[f=0000000] PathCosts: precached 2472 of 12288 blocks
+[f=0000000] PathCosts: precached 3369 of 12288 blocks
+[f=0000000] PathCosts: precached 4280 of 12288 blocks
+[f=0000000] PathCosts: precached 5213 of 12288 blocks
+[f=0000000] PathCosts: precached 6203 of 12288 blocks
+[f=0000000] PathCosts: precached 7135 of 12288 blocks
+[f=0000000] PathCosts: precached 8106 of 12288 blocks
+[f=0000000] PathCosts: precached 8988 of 12288 blocks
+[f=0000000] PathCosts: precached 9842 of 12288 blocks
+[f=0000000] PathCosts: precached 10795 of 12288 blocks
+[f=0000000] PathCosts: precached 11738 of 12288 blocks
+[f=0000000] PathCosts: writing
+[f=0000000] PathCosts: written
+[f=0000000] PathCosts: creating PE32 cache with 4 PF threads (42 MB)
+[f=0000000] PathCosts: precached 3 of 768 blocks
+[f=0000000] PathCosts: precached 52 of 768 blocks
+[f=0000000] PathCosts: precached 100 of 768 blocks
+[f=0000000] PathCosts: precached 148 of 768 blocks
+[f=0000000] PathCosts: precached 199 of 768 blocks
+[f=0000000] PathCosts: precached 247 of 768 blocks
+[f=0000000] PathCosts: precached 299 of 768 blocks
+[f=0000000] PathCosts: precached 350 of 768 blocks
+[f=0000000] PathCosts: precached 401 of 768 blocks
+[f=0000000] PathCosts: precached 453 of 768 blocks
+[f=0000000] PathCosts: precached 502 of 768 blocks
+[f=0000000] PathCosts: precached 552 of 768 blocks
+[f=0000000] PathCosts: precached 601 of 768 blocks
+[f=0000000] PathCosts: precached 650 of 768 blocks
+[f=0000000] PathCosts: precached 700 of 768 blocks
+[f=0000000] PathCosts: precached 750 of 768 blocks
+[f=0000000] PathCosts: writing
+[f=0000000] PathCosts: written
+[f=0000000] [CPathManager] pathing data checksum: 3f6806ec
+[f=0000000] [IPathManager::GetInstance] using DEFAULT path-manager
+[f=0000000] Initializing Map Features
+[f=0000000] Error: [LoadFeaturesFromMap] unknown map feature type ""
+[f=0000000] Creating ShadowHandler & DecalHandler
+[f=0000000] Creating GroundDrawer
+[f=0000000] Loading Tile Files
+[f=0000000] Reading Tile Map
+[f=0000000] Loading Square Textures
+[f=0000000] CSMFGroundTextures::ConvolveHeightMap: 2 ms
+[f=0000000] Switching to ROAM Mesh Rendering
+[f=0000000] Creating TreeDrawer
+[f=0000000] Creating ProjectileDrawer & UnitDrawer
+[f=0000000] Creating Projectile Textures
+[f=0000000] Warning: [CCEG::Load] STARFIRE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] STARFIRE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] large_green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] large_green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] blobber_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blobber_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] RED_GOO: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] RED_GOO: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] large_green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] large_green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] large_green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] large_green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] lobber_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blobber_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blobber_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] large_green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] large_green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] large_green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] large_green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] EMPMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] STARFIRE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] POWERPLANT_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] blobber_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blobber_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] SMOKE: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] LARGE_MUZZLE_FLASH_FX: Unknown tag CSmokeProjectile2::sizegrowth
+[f=0000000] Warning: [CCEG::Load] dig3: Unknown tag dirt::lifetime
+[f=0000000] Warning: [CCEG::Load] dig3: Unknown tag dirt::lifetime
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] green_goo: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] LARGE_MUZZLE_FLASH_FX: Unknown tag CSmokeProjectile2::sizegrowth
+[f=0000000] Warning: [CCEG::Load] LARGE_MUZZLE_FLASH_FX: Unknown tag CSmokeProjectile2::sizegrowth
+[f=0000000] Warning: [CCEG::Load] LARGE_MUZZLE_FLASH_FX: Unknown tag CSmokeProjectile2::sizegrowth
+[f=0000000] Warning: [CCEG::Load] LARGE_MUZZLE_FLASH_FX: Unknown tag CSmokeProjectile2::sizegrowth
+[f=0000000] Warning: [CCEG::Load] dig3: Unknown tag dirt::lifetime
+[f=0000000] Warning: [CCEG::Load] MEDMISSILE_EXPLOSION: Unknown tag smoke::sizegrowth
+[f=0000000] Warning: [CCEG::Load] LARGE_MUZZLE_FLASH_FX: Unknown tag CSmokeProjectile2::sizegrowth
+[f=0000000] Warning: [CCEG::Load] dig3: Unknown tag dirt::lifetime
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] blood_explode: Unknown tag CSimpleParticleSystem::size
+[f=0000000] Warning: [CCEG::Load] dig3: Unknown tag dirt::lifetime
+[f=0000000] Creating Water
+[f=0000000] Game::LoadInterface (Camera&Mouse): 1262 ms
+[f=0000000] [Sound] Error: Unable to open audio file: MultiSelect
+[f=0000000] [Sound] Error: CSound::GetSoundId: could not find sound: MultiSelect
+[f=0000000] Game::LoadInterface (Console): 2 ms
+[f=0000000] [Sound] Error: Unable to open audio file: FailedCommand
+[f=0000000] [Sound] Error: CSound::GetSoundId: could not find sound: FailedCommand
+[f=0000000] Loading LuaRules
+[f=0000000] Jump Jet Defs checking begining...
+[f=0000000] .. Jump Jet Defs checking complete
+[f=0000000] Error: [UnitDefIndex] ERROR_TYPE for key "extractSquare" in UnitDefs __index
+[f=0000000] Jump Jet Defs checking begining...
+[f=0000000] .. Jump Jet Defs checking complete
+[f=0000000] Jump Jet Defs checking begining...
+[f=0000000] .. Jump Jet Defs checking complete
+[f=0000000] Setting morph for custom comms for player: 0
+[f=0000000] Loading gadget: Lua unit script framework  <unit_script.lua>
+[f=0000000] LUARULES-DRAW  (GADGETS)
+[f=0000000] Jump Jet Defs checking begining...
+[f=0000000] .. Jump Jet Defs checking complete
+[f=0000000] LUARULES-DRAW  (GADGETS)
+[f=0000000] Loading LuaGaia
+[f=0000000] Loading LuaUI
+[f=0000000] LuaSocketEnabled: yes
+[f=0000000] This game has locked LuaUI access
+[f=0000000] This game has locked LuaUI access
+[f=0000000] Using LUAUI_DIRNAME = LuaUI/
+[f=0000000] Reloaded ctrlpanel from file: LuaUI/ctrlpanel.txt
+[f=0000000] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Config/ZK_order.lua: No such file or directory (Now will find backup file)
+[f=0000000] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Config/ZK_order.lua.bak: No such file or directory (Backup file not available)
+[f=0000000] nil, LuaUI/Config/ZK_order.lua: No such file or directory, 2
+[f=0000000] nil, LuaUI/Config/ZK_order.lua.bak: No such file or directory, 2
+[f=0000000] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Config/ZK_data.lua: No such file or directory (Now will find backup file)
+[f=0000000] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Config/ZK_data.lua.bak: No such file or directory (Backup file not available)
+[f=0000000] nil, LuaUI/Config/ZK_data.lua: No such file or directory, 2
+[f=0000000] nil, LuaUI/Config/ZK_data.lua.bak: No such file or directory, 2
+[f=0000000] LuaUI: bound F11 to the widget selector
+[f=0000000] LuaUI: bound CTRL+F11 to tweak mode
+[f=0000000] Error: [UnitDefIndex] ERROR_TYPE for key "extractSquare" in UnitDefs __index
+[f=0000000] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Configs/zk_keys.lua: No such file or directory (Now will find backup file)
+[f=0000000] [CheckLUAFileAndBackup] Warning: cannot open LuaUI/Configs/zk_keys.lua.bak: No such file or directory (Backup file not available)
+[f=0000000] nil, LuaUI/Configs/zk_keys.lua: No such file or directory, 2
+[f=0000000] nil, LuaUI/Configs/zk_keys.lua.bak: No such file or directory, 2
+[f=0000000] Jump Jet Defs checking begining...
+[f=0000000] .. Jump Jet Defs checking complete
+[f=0000000] Loaded API widget:  Shared Functions    <api_shared_functions.lua>
+[f=0000000] Loaded API widget:  Modular Comm Info   <api_modularcomms.lua>
+[f=0000000] Loaded API widget:  Chili Framework     <api_chili.lua>
+[f=0000000] Loaded API widget:  Lag (AFK) monitor   <api_lag_monitor.lua>
+[f=0000000] Loaded API widget:  Lups                <lups_wrapper.lua>
+[f=0000000] Hardware mouse-cursor is disabled!
+[f=0000000] Set "shadows" config-parameter to 1
+[f=0000000] Set UnitLodDist to 450
+[f=0000000] model shaders is enabled!
+[f=0000000] Ground-decals rendering is disabled!
+[f=0000000] Set maximum particles to: 1000
+[f=0000000] Set UnitIconDist to 250
+[f=0000000] Loaded widget:  EPIC Menu           <gui_epicmenu.lua>
+[f=0000000] Loaded widget:  Chili Minimap       <gui_chili_minimap.lua>
+[f=0000000] Loaded widget:  Chili Widget Selector  <gui_chili_widgetselector.lua>
+[f=0000000] Loaded widget:  Custom Cursor Sets  <gui_customcursorsets.lua>
+[f=0000000] Mexspot Fetcher fetching
+[f=0000000] Loaded widget:  Mexspot Fetcher     <wg_mexspot_fetcher.lua>
+[f=0000000] Loaded widget:  Local Team Colors   <gui_local_colors.lua>
+[f=0000000] Loaded widget:  HealthBars          <unit_healthbars.lua>
+[f=0000000] Loaded widget:  Hide map marks and cursor  <gui_hide_marks_on_f5.lua>
+[f=0000000] Loaded widget:  Noises              <snd_noises.lua>
+[f=0000000] Loaded widget:  Unit Icons          <unit_icons.lua>
+[f=0000000] Loaded widget:  Chili Vote Display  <gui_chili_vote.lua>
+[f=0000000] Loaded widget:  TeamCommEnds & Lavarise indicator  <gui_teamcommends.lua>
+[f=0000000] Warning: [Watchdog] Hang detection triggered for Spring 94.1.1-634-g3be44ed develop (OMP).
+[f=0000000] Warning:   (in thread: load)
+[f=0000000] Loaded widget:  BuildETA            <gui_build_eta.lua>
+[f=0000000] Loaded widget:  Cloak Fire State    <unit_cloakfirestate.lua>
+[f=0000000] Loaded widget:  AA Command Helper   <cmd_attackcmd_aid.lua>
+[f=0000000] Loaded widget:  Attack Warning      <unit_attack_warning.lua>
+[f=0000000] Loaded widget:  Auto First Build Facing  <autofirstbuildfacing.lua>
+[f=0000000] Warning: DLL information:
+[f=0000000] Error: 0x00400000	spring
+[f=0000000] Error: 0x779e0000	ntdll
+[f=0000000] Error: 0x76430000	kernel32
+[f=0000000] Error: 0x75ce0000	KERNELBASE
+[f=0000000] Error: 0x75b40000	snxhk
+[f=0000000] Error: 0x10000000	DevIL
+[f=0000000] Error: 0x72530000	MSVCP80
+[f=0000000] Error: 0x72490000	MSVCR80
+[f=0000000] Error: 0x76930000	msvcrt
+[f=0000000] Error: 0x75e70000	USER32
+[f=0000000] Error: 0x76880000	GDI32
+[f=0000000] Error: 0x77b70000	LPK
+[f=0000000] Error: 0x76530000	USP10
+[f=0000000] Error: 0x767e0000	ADVAPI32
+[f=0000000] Error: 0x765d0000	sechost
+[f=0000000] Error: 0x777d0000	RPCRT4
+[f=0000000] Error: 0x69150000	GLU32
+[f=0000000] Error: 0x69180000	OPENGL32
+[f=0000000] Error: 0x67b80000	DDRAW
+[f=0000000] Error: 0x67b70000	DCIMAN32
+[f=0000000] Error: 0x77630000	SETUPAPI
+[f=0000000] Error: 0x75cb0000	CFGMGR32
+[f=0000000] Error: 0x76080000	OLEAUT32
+[f=0000000] Error: 0x76110000	ole32
+[f=0000000] Error: 0x75d30000	DEVOBJ
+[f=0000000] Error: 0x74760000	dwmapi
+[f=0000000] Error: 0x77be0000	IMAGEHLP
+[f=0000000] Error: 0x62480000	pthreadGC2
+[f=0000000] Error: 0x721a0000	WSOCK32
+[f=0000000] Error: 0x77b20000	WS2_32
+[f=0000000] Error: 0x76510000	NSI
+[f=0000000] Error: 0x769e0000	SHELL32
+[f=0000000] Error: 0x77b80000	SHLWAPI
+[f=0000000] Error: 0x6b600000	OpenAL32
+[f=0000000] Error: 0x72830000	WINMM
+[f=0000000] Error: 0x70780000	vorbisfile
+[f=0000000] Error: 0x68140000	ogg
+[f=0000000] Error: 0x64cc0000	vorbis
+[f=0000000] Error: 0x62e80000	zlib1
+[f=0000000] Error: 0x66fc0000	freetype6
+[f=0000000] Error: 0x62aa0000	glew32
+[f=0000000] Error: 0x01320000	SDL
+[f=0000000] Error: 0x7c340000	MSVCR71
+[f=0000000] Error: 0x76060000	IMM32
+[f=0000000] Error: 0x77880000	MSCTF
+[f=0000000] Error: 0x72770000	dsound
+[f=0000000] Error: 0x75560000	POWRPROF
+[f=0000000] Error: 0x75a80000	CRYPTBASE
+[f=0000000] Error: 0x77950000	CLBCatQ
+[f=0000000] Error: 0x747b0000	MMDevApi
+[f=0000000] Error: 0x748d0000	PROPSYS
+[f=0000000] Error: 0x6e140000	wdmaud
+[f=0000000] Error: 0x6ef90000	ksuser
+[f=0000000] Error: 0x75530000	AVRT
+[f=0000000] Error: 0x73e50000	AUDIOSES
+[f=0000000] Error: 0x6ee50000	msacm32
+[f=0000000] Error: 0x6ec10000	MSACM32
+[f=0000000] Error: 0x6ee40000	midimap
+[f=0000000] Error: 0x75ad0000	profapi
+[f=0000000] Error: 0x720a0000	dbghelp
+[f=0000000] Error: 0x74890000	uxtheme
+[f=0000000] Error: 0x02ca0000	HydraDMH
+[f=0000000] Error: 0x69d80000	atiglpxx
+[f=0000000] Error: 0x08150000	atioglxx
+[f=0000000] Error: 0x755b0000	VERSION
+[f=0000000] Error: 0x73730000	atiadlxx
+[f=0000000] Error: 0x75720000	USERENV
+[f=0000000] Error: 0x755c0000	WTSAPI32
+[f=0000000] Error: 0x76520000	PSAPI
+[f=0000000] Error: 0x740c0000	IPHLPAPI
+[f=0000000] Error: 0x740b0000	WINNSI
+[f=0000000] Error: 0x75bf0000	WINTRUST
+[f=0000000] Error: 0x75d50000	CRYPT32
+[f=0000000] Error: 0x75be0000	MSASN1
+[f=0000000] Error: 0x711e0000	aticfx32
+[f=0000000] Error: 0x6ef70000	atigktxx
+[f=0000000] Error: 0x5af40000	DINPUT
+[f=0000000] Error: 0x754a0000	HID
+[f=0000000] Error: 0x752f0000	mswsock
+[f=0000000] Error: 0x752e0000	wship6
+[f=0000000] Error: 0x572f0000	wshqos
+[f=0000000] Error: 0x75650000	wshtcpip
+[f=0000000] Warning: Stacktrace (main):
+[f=0000000] Warning: (0) C:\Windows\SYSTEM32\ntdll.dll(KiFastSystemCallRet+0) [0x77A270B4]
+[f=0000000] Warning: (1) C:\Windows\system32\KERNELBASE.dll(Sleep+0xf) [0x75CE1818]
+[f=0000000] Warning: (2) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x22724a) [0x00A387BA]
+[f=0000000] Warning: (3) C:\Windows\system32\msvcrt.dll(gmtime32+0x1a) [0x769B293F]
+[f=0000000] Warning: (4) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x304f07) [0x00B16477]
+[f=0000000] Warning: (5) C:\Windows\SYSTEM32\ntdll.dll(CsrClientCallServer+0x155) [0x77A3C8CA]
+[f=0000000] Warning: (6) C:\Windows\SYSTEM32\ntdll.dll(RtlQueryPerformanceCounter+0x49) [0x77A33188]
+[f=0000000] Warning: (7) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3701b) [0x0084858B]
+[f=0000000] Warning: (8) C:\Windows\SYSTEM32\ntdll.dll(CsrClientCallServer+0x155) [0x77A3C8CA]
+[f=0000000] Warning: Stacktrace (load):
+[f=0000000] Warning: (0) C:\Windows\SYSTEM32\ntdll.dll(TpCallbackIndependent+0x105) [0x77A12042]
+[f=0000000] Warning: (1) C:\Windows\SYSTEM32\ntdll.dll(RtlAllocateHeap+0xac) [0x77A32E82]
+[f=0000000] Warning: (2) C:\Windows\system32\msvcrt.dll(malloc+0x57) [0x76939D45]
+[f=0000000] Warning: (3) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x4e0323) [0x00CF1893]
+[f=0000000] Warning: (4) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x374035) [0x00B855A5]
+[f=0000000] Warning: (5) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3c6102) [0x00BD7672]
+[f=0000000] Warning: (6) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3c7da2) [0x00BD9312]
+[f=0000000] Warning: (7) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3c5c2f) [0x00BD719F]
+[f=0000000] Warning: (8) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3c7006) [0x00BD8576]
+[f=0000000] Warning: (9) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x00474E02]
+[f=0000000] Warning: (10) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x4bb3d9) [0x00CCC949]
+[f=0000000] Warning: (11) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x0047546C]
+[f=0000000] Warning: (12) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x39e79b) [0x00BAFD0B]
+[f=0000000] Warning: (13) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3cee67) [0x00BE03D7]
+[f=0000000] Warning: (14) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x00476218]
+[f=0000000] Warning: Stacktrace (audio):
+[f=0000000] Warning: (0) C:\Windows\SYSTEM32\ntdll.dll(KiFastSystemCallRet+0) [0x77A270B4]
+[f=0000000] Warning: (1) C:\Windows\system32\kernel32.dll(WaitForMultipleObjectsEx+0x8e) [0x7647BD1E]
+[f=0000000] Warning: (2) C:\Windows\system32\kernel32.dll(WaitForMultipleObjects+0x18) [0x7647BD8C]
+[f=0000000] Warning: (3) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x227196) [0x00A38706]
+[f=0000000] Warning: (4) C:\Windows\system32\msvcrt.dll(gmtime32+0x1a) [0x769B293F]
+[f=0000000] Warning: (5) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x304f07) [0x00B16477]
+[f=0000000] Warning: (6) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x2f7206) [0x00B08776]
+[f=0000000] Warning: (7) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x2fdf31) [0x00B0F4A1]
+[f=0000000] Warning: (8) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x11186) [0x008226F6]
+[f=0000000] Warning: (9) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x2251d6) [0x00A36746]
+[f=0000000] Warning: (10) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x2f4a51) [0x00B05FC1]
+[f=0000000] Warning: (11) C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0xef) [0x77A437F5]
+[f=0000000] Warning: (12) C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0xc2) [0x77A437C8]
+[f=0000000] Loaded widget:  Auto Group          <unit_auto_group.lua>
+[f=0000000] Loaded widget:  Auto Patrol Nanos   <unit_auto_patrol_nanos.lua>
+[f=0000000] Loaded widget:  Autoquit            <autoquit.lua>
+[f=0000000] Loaded widget:  Blast Radius        <gui_blastradius.lua>
+[f=0000000] Loaded widget:  Camera Info Snapshot  <camera_info_snapshot.lua>
+[f=0000000] Loaded widget:  CameraShake         <camera_shake.lua>
+[f=0000000] Loaded widget:  Chili Chat Bubbles  <gui_chili_chatbubbles.lua>
+[f=0000000] Loaded widget:  Chili Rejoining Progress Bar  <gui_chili_rejoin_progress.lua>
+[f=0000000] Loaded widget:  Chili Resource Bars  <gui_chili_resource_bars.lua>
+[f=0000000] Loaded widget:  Chili Selections & CursorTip  <gui_chili_selections_and_cursortip.lua>
+[f=0000000] Loaded widget:  Clippy Comments     <unit_clippy.lua>
+[f=0000000] Loaded widget:  ComCounter          <unit_com_counter.lua>
+[f=0000000] Loaded widget:  Constructor Auto Assist  <unit_factory_guard.lua>
+[f=0000000] Loaded widget:  Context Menu        <gui_contextmenu.lua>
+[f=0000000] Loaded widget:  Darkening           <gui_darkening.lua>
+[f=0000000] Loaded widget:  Decoration Handler  <unit_decoration_handler.lua>
+[f=0000000] Loaded widget:  Defense Range Zero-K  <gui_defenserange.lua>
+[f=0000000] Loaded widget:  Ferry Points        <cmd_ferry_points.lua>
+[f=0000000] Loaded widget:  Ghost Site          <unit_ghostsite.lua>
+[f=0000000] Loaded widget:  Highlight Geos      <gui_highlight_geos.lua>
+[f=0000000] Loaded widget:  Keep Target         <cmd_keep_target.lua>
+[f=0000000] Loaded widget:  Local Widgets Config  <localwidgets.lua>
+[f=0000000] Loaded widget:  LogFlush Disabler   <dbg_logflush.lua>
+[f=0000000] Loaded widget:  Map Edge Extension  <map_edge_extension.lua>
+[f=0000000] Loaded widget:  MetalFeatures       <gui_metal_features.lua>
+[f=0000000] Loaded widget:  Mex Placement Handler  <cmd_mex_placement.lua>
+[f=0000000] Loaded widget:  MiniMap Start Boxes  <minimap_startbox.lua>
+[f=0000000] Loaded widget:  MinimapEvents       <minimap_events.lua>
+[f=0000000] Loaded widget:  Missile Silo Range  <missilesilo_range.lua>
+[f=0000000] Loaded widget:  Music Player        <snd_music.lua>
+[f=0000000] Loaded widget:  NoDuplicateOrders   <cmd_no_duplicate_orders.lua>
+[f=0000000] Loaded widget:  Pause Screen        <gui_pausescreen.lua>
+[f=0000000] Loaded widget:  Persistent Build Spacing  <gui_persistent_build_spacing.lua>
+[f=0000000] Loaded widget:  Point Tracker       <gui_point_tracker.lua>
+[f=0000000] Loaded widget:  ReclaimInfo         <gui_reclaiminfo.lua>
+[f=0000000] Loaded widget:  Retreat             <cmd_retreat.lua>
+[f=0000000] Loaded widget:  Spectate Selected Team  <gui_spectate_selected_team.lua>
+[f=0000000] Loaded widget:  Start Point Remover & Comm Selector  <init_start_point_remover.lua>
+[f=0000000] Loaded widget:  Startup Info and Selector  <init_startup_info_selector.lua>
+[f=0000000] Loaded widget:  State Reverse Toggle  <cmd_state_reverse_toggle.lua>
+[f=0000000] Loaded widget:  Stereo3D            <gfx_stereo3d.lua>
+[f=0000000] Loaded widget:  Stockpiler          <unit_stockpile.lua>
+[f=0000000] Threonine ENABLE TTS
+[f=0000000] Loaded widget:  Text To Speech Control  <snd_text_to_speech.lua>
+[f=0000000] Warning: [Watchdog] Hang detection triggered for Spring 94.1.1-634-g3be44ed develop (OMP).
+[f=0000000] Warning:   (in thread: load)
+[f=0000000] Warning: DLL information:
+[f=0000000] Error: 0x00400000	spring
+[f=0000000] Error: 0x779e0000	ntdll
+[f=0000000] Error: 0x76430000	kernel32
+[f=0000000] Error: 0x75ce0000	KERNELBASE
+[f=0000000] Error: 0x75b40000	snxhk
+[f=0000000] Error: 0x10000000	DevIL
+[f=0000000] Error: 0x72530000	MSVCP80
+[f=0000000] Error: 0x72490000	MSVCR80
+[f=0000000] Error: 0x76930000	msvcrt
+[f=0000000] Error: 0x75e70000	USER32
+[f=0000000] Error: 0x76880000	GDI32
+[f=0000000] Error: 0x77b70000	LPK
+[f=0000000] Error: 0x76530000	USP10
+[f=0000000] Error: 0x767e0000	ADVAPI32
+[f=0000000] Error: 0x765d0000	sechost
+[f=0000000] Error: 0x777d0000	RPCRT4
+[f=0000000] Error: 0x69150000	GLU32
+[f=0000000] Error: 0x69180000	OPENGL32
+[f=0000000] Error: 0x67b80000	DDRAW
+[f=0000000] Error: 0x67b70000	DCIMAN32
+[f=0000000] Error: 0x77630000	SETUPAPI
+[f=0000000] Error: 0x75cb0000	CFGMGR32
+[f=0000000] Error: 0x76080000	OLEAUT32
+[f=0000000] Error: 0x76110000	ole32
+[f=0000000] Error: 0x75d30000	DEVOBJ
+[f=0000000] Error: 0x74760000	dwmapi
+[f=0000000] Error: 0x77be0000	IMAGEHLP
+[f=0000000] Error: 0x62480000	pthreadGC2
+[f=0000000] Error: 0x721a0000	WSOCK32
+[f=0000000] Error: 0x77b20000	WS2_32
+[f=0000000] Error: 0x76510000	NSI
+[f=0000000] Error: 0x769e0000	SHELL32
+[f=0000000] Error: 0x77b80000	SHLWAPI
+[f=0000000] Error: 0x6b600000	OpenAL32
+[f=0000000] Error: 0x72830000	WINMM
+[f=0000000] Error: 0x70780000	vorbisfile
+[f=0000000] Error: 0x68140000	ogg
+[f=0000000] Error: 0x64cc0000	vorbis
+[f=0000000] Error: 0x62e80000	zlib1
+[f=0000000] Error: 0x66fc0000	freetype6
+[f=0000000] Error: 0x62aa0000	glew32
+[f=0000000] Error: 0x01320000	SDL
+[f=0000000] Error: 0x7c340000	MSVCR71
+[f=0000000] Error: 0x76060000	IMM32
+[f=0000000] Error: 0x77880000	MSCTF
+[f=0000000] Error: 0x72770000	dsound
+[f=0000000] Error: 0x75560000	POWRPROF
+[f=0000000] Error: 0x75a80000	CRYPTBASE
+[f=0000000] Error: 0x77950000	CLBCatQ
+[f=0000000] Error: 0x747b0000	MMDevApi
+[f=0000000] Error: 0x748d0000	PROPSYS
+[f=0000000] Error: 0x6e140000	wdmaud
+[f=0000000] Error: 0x6ef90000	ksuser
+[f=0000000] Error: 0x75530000	AVRT
+[f=0000000] Error: 0x73e50000	AUDIOSES
+[f=0000000] Error: 0x6ee50000	msacm32
+[f=0000000] Error: 0x6ec10000	MSACM32
+[f=0000000] Error: 0x6ee40000	midimap
+[f=0000000] Error: 0x75ad0000	profapi
+[f=0000000] Error: 0x720a0000	dbghelp
+[f=0000000] Error: 0x74890000	uxtheme
+[f=0000000] Error: 0x02ca0000	HydraDMH
+[f=0000000] Error: 0x69d80000	atiglpxx
+[f=0000000] Error: 0x08150000	atioglxx
+[f=0000000] Error: 0x755b0000	VERSION
+[f=0000000] Error: 0x73730000	atiadlxx
+[f=0000000] Error: 0x75720000	USERENV
+[f=0000000] Error: 0x755c0000	WTSAPI32
+[f=0000000] Error: 0x76520000	PSAPI
+[f=0000000] Error: 0x740c0000	IPHLPAPI
+[f=0000000] Error: 0x740b0000	WINNSI
+[f=0000000] Error: 0x75bf0000	WINTRUST
+[f=0000000] Error: 0x75d50000	CRYPT32
+[f=0000000] Error: 0x75be0000	MSASN1
+[f=0000000] Error: 0x711e0000	aticfx32
+[f=0000000] Error: 0x6ef70000	atigktxx
+[f=0000000] Error: 0x5af40000	DINPUT
+[f=0000000] Error: 0x754a0000	HID
+[f=0000000] Error: 0x752f0000	mswsock
+[f=0000000] Error: 0x752e0000	wship6
+[f=0000000] Error: 0x572f0000	wshqos
+[f=0000000] Error: 0x75650000	wshtcpip
+[f=0000000] Warning: Stacktrace (main):
+[f=0000000] Warning: (0) C:\Windows\SYSTEM32\ntdll.dll(KiFastSystemCallRet+0) [0x77A270B4]
+[f=0000000] Warning: (1) C:\Windows\system32\KERNELBASE.dll(Sleep+0xf) [0x75CE1818]
+[f=0000000] Warning: (2) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x22724a) [0x00A387BA]
+[f=0000000] Warning: (3) C:\Windows\system32\msvcrt.dll(gmtime32+0x1a) [0x769B293F]
+[f=0000000] Warning: (4) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x304f07) [0x00B16477]
+[f=0000000] Warning: (5) C:\Windows\SYSTEM32\ntdll.dll(CsrClientCallServer+0x155) [0x77A3C8CA]
+[f=0000000] Warning: (6) C:\Windows\SYSTEM32\ntdll.dll(RtlQueryPerformanceCounter+0x49) [0x77A33188]
+[f=0000000] Warning: (7) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x3701b) [0x0084858B]
+[f=0000000] Warning: (8) C:\Windows\SYSTEM32\ntdll.dll(CsrClientCallServer+0x155) [0x77A3C8CA]
+[f=0000000] Warning: Stacktrace (load):
+[f=0000000] Warning: (0) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x39e7c0) [0x00BAFD30]
+[f=0000000] Warning: (1) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x4903bf) [0x00CA192F]
+[f=0000000] Warning: (2) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe [0x00474EF0]
+[f=0000000] Warning: Stacktrace (audio):
+[f=0000000] Warning: (0) C:\Windows\SYSTEM32\ntdll.dll(KiFastSystemCallRet+0) [0x77A270B4]
+[f=0000000] Warning: (1) C:\Windows\system32\kernel32.dll(WaitForMultipleObjectsEx+0x8e) [0x7647BD1E]
+[f=0000000] Warning: (2) C:\Windows\system32\kernel32.dll(WaitForMultipleObjects+0x18) [0x7647BD8C]
+[f=0000000] Warning: (3) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x227196) [0x00A38706]
+[f=0000000] Warning: (4) J:\Games\Ren'Py\Projects\SpringLink test\spring\OpenAL32.dll(alGetError+0x22) [0x6B60712A]
+[f=0000000] Warning: (5) C:\Windows\system32\msvcrt.dll(gmtime32+0x1a) [0x769B293F]
+[f=0000000] Warning: (6) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x304f07) [0x00B16477]
+[f=0000000] Warning: (7) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x2f7206) [0x00B08776]
+[f=0000000] Warning: (8) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x2fdf31) [0x00B0F4A1]
+[f=0000000] Warning: (9) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x11186) [0x008226F6]
+[f=0000000] Warning: (10) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x2251d6) [0x00A36746]
+[f=0000000] Warning: (11) J:\Games\Ren'Py\Projects\SpringLink test\spring\spring.exe(skirmishAiCallback_Unit_CurrentCommand_getOptions+0x2f4a51) [0x00B05FC1]
+[f=0000000] Warning: (12) C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0xef) [0x77A437F5]
+[f=0000000] Warning: (13) C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0xc2) [0x77A437C8]
+[f=0000000] Loaded widget:  Transport AI        <unit_transport_ai.lua>
+[f=0000000] Loaded widget:  Unit Marker Zero-K  <unit_marker.lua>
+[f=0000000] Loaded widget:  Voice Assistant     <unit_voice.lua>
+[f=0000000] Loaded widget:  Attack AoE          <gui_attack_aoe.lua>
+[f=0000000] Loaded widget:  MessageBoxes        <mission_messagebox.lua>
+[f=0000000] Loaded widget:  Nubtron             <nubtron.lua>
+[f=0000000] Loaded widget:  Objectives          <mission_objectives.lua>
+[f=0000000] Loaded widget:  PlanetWars Info     <gui_planetwars_info.lua>
+[f=0000000] <Replay control buttons> Live mode. Widget removed.
+[f=0000000] Loaded widget:  Replay control buttons  <gui_replay_controls.lua>
+[f=0000000] Loaded widget:  Select Keys         <gui_selectkeys.lua>
+[f=0000000] Loaded widget:  SmoothScroll        <camera_smooth_move.lua>
+[f=0000000] Loaded widget:  Unit Start State    <unit_start_state.lua>
+[f=0000000] Loaded widget:  UnitNoStuckInFactory  <unit_nostuck_infactory.lua>
+[f=0000000] Reloaded cmdcolors from file: cmdcolors.tmp
+[f=0000000] Loaded widget:  UnitShapes          <unit_shapes.lua>
+[f=0000000] Loaded widget:  AllyCursors         <gui_ally_cursors.lua>
+[f=0000000] Loaded widget:  Bounty & Marketplace Icons (experimental)  <unit_bounty_marketplace_icons.lua>
+[f=0000000] Loaded widget:  Building Starter    <unit_building_starter.lua>
+[f=0000000] Loaded widget:  Cloaker Guard       <unit_cloaker_guard.lua>
+[f=0000000] Loaded widget:  CommandInsert       <gui_commandinsert.lua>
+[f=0000000] Loaded widget:  Gadget Icons        <unit_gadget_icons.lua>
+[f=0000000] Loaded widget:  Rank Icons 2        <unit_rank_icons.lua>
+[f=0000000] Loaded widget:  Selection Send      <gui_selectionsend.lua>
+[f=0000000] Loaded widget:  Shield Guard        <unit_shield_guard.lua>
+[f=0000000] Loaded widget:  State Icons         <unit_state_icons.lua>
+[f=0000000] Loaded widget:  LupsManager         <gfx_lups_manager.lua>
+[f=0000000] Loaded widget:  Units on Fire       <gfx_lups_units_on_fire.lua>
+[f=0000000] Loaded widget:  Receive Units Indicator  <gui_recv_indicator.lua>
+[f=0000000] Loaded widget:  Chili Chat 2.1      <gui_chili_chat2_1.lua>
+[f=0000000] Loaded widget:  Chili Crude Player List  <gui_chili_crudeplayerlist.lua>
+[f=0000000] Loaded widget:  Chili Docking       <gui_chili_docking.lua>
+[f=0000000] Loaded widget:  Image Preloader     <dbg_img_preload.lua>
+[f=0000000] Loaded widget:  Chili Core Selector  <gui_chili_core_selector.lua>
+[f=0000000] Loaded widget:  Restricted Zones    <gui_restrictedzones.lua>
+[f=0000000] Loaded widget:  Jumpjet GUI         <gui_jumpjets.lua>
+[f=0000000] Loaded widget:  Chili Gesture Menu  <gui_chili_gesture_menu.lua>
+[f=0000000] Loaded widget:  CustomFormations2   <unit_customformations2.lua>
+[f=0000000] Loaded widget:  Chili Integral Menu  <gui_chili_integral_menu.lua>
+[f=0000000] Loaded widget:  Lasso Terraform GUI  <gui_lasso_terraform.lua>
+[f=0000000] [EPIC Menu] Error: Could not open keybind file LuaUI/Configs/zk_keys.lua for writing
+[f=0000000] LuaUI v0.3
+[f=0000000] Initializing PathCache
+[f=0000000] Processing PW structure: pw_artefact
+[f=0000000] Processing PW structure: pw_wormhole
+[f=0000000] Processing PW structure: pw_bombercontrol
+[f=0000000] Processing PW structure: pw_dropdepot
+[f=0000000] Processing PW structure: pw_warpjammer
+[f=0000000] Processing PW structure: pw_warpgate
+[f=0000000] Processing PW structure: pw_wormhole2
+[f=0000000] Processing PW structure: pw_dropfac
+[f=0000000] Processing PW structure: pw_generictech
+[f=0000000] Finalizing
+[f=0000000] Loaded DecalsDrawer: Legacy
+[f=0000000] Connection attempt from Threonine
+[f=0000000]  -> Version: 94.1.1-634-g3be44ed develop (OMP)
+[f=0000000]  -> Connection established (given id 0)
+[f=0000000] Mexspot Fetcher received
+[f=0000000] Player Threonine finished loading and is now ingame
+[f=0000000] Mex Placement Initialised with 60 spots.
+[f=0000000] Switching to Overhead (TA) style camera
+[f=0000000] Epicmenu: Switching to Total Annihilation camera mode
+[f=0000000] <Threonine> Allies: I choose: Seacom!
+[f=0000000] Loading:  LuaUI/Widgets/dbg_test.lua
+[f=0000000] Removed:  LuaUI/Widgets/dbg_test.lua
+[f=0000000] GameID: 70cfb9519baccf91c45919839acfa0cb
+[f=0000006] Skirmish AI "Bot1" (ID:0, Short-Name:"NullAI", Version:"0.1") took over control of team 0
+[f=0000006] Skirmish AI "Bot2" (ID:1, Short-Name:"NullAI", Version:"0.1") took over control of team 1
+[f=0000048] Wind Range: 0 - 2.5. Max Windmill altitude bonus is: 14%
+[f=0000060] Terraform cost multipler = 1
+[f=0000080] Loading:  LuaUI/Widgets/dbg_test.lua
+[f=0000098] Removed:  LuaUI/Widgets/dbg_test.lua
+[f=0000159] User exited
+[f=0000159] User exited
+[f=0000159] [EPIC Menu] Error: Could not open keybind file LuaUI/Configs/zk_keys.lua for writing
+[f=0000159] Chili: tried to add multiple times "Chat" to "screen0"!
+[f=0000159] Threonine DISABLE TTS
+[f=0000159] [CCollisionHandler] dis-/continuous tests: 0/1249170
+[f=0000159] Path cache hits 0 0%
+[f=0000159] Path cache hits 0 0%
+[f=0000159] Statistics for RectangleOptimizer: 0%
+[f=0000159] Statistics for RectangleOptimizer: 0%
+[f=0000159] Statistics for local connection:
+Received: 4452 bytes
+Sent: 3117 bytes
+
+[f=0000159] Writing demo: demos/20130613_215407_Green Comet Basic_94.1.1-634-g3be44ed develop.sdf
