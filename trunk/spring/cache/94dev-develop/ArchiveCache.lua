@@ -2,7 +2,21 @@ local archiveCache = {
 
 	internalver = 9,
 
-	archives = {  -- count = 280
+	archives = {  -- count = 310
+		{
+			name = "155851016a7412daf613558cb43c75cf.sdp",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
+			modified = "1375610922",
+			checksum = "784028790",
+			archivedata = {
+				description = "Zero-K",
+				modtype = 1,
+				mutator = "1",
+				name = "Zero-K v1.1.7.7",
+				shortname = "ZK",
+				version = "v1.1.7.7",
+			},
+		},
 		{
 			name = "1944_Prokhorovka_V2.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
@@ -26,20 +40,6 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "1de578b85395c272faf9a4811852bb6c.sdp",
-			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
-			modified = "1370347349",
-			checksum = "3192521615",
-			archivedata = {
-				description = "Zero-K",
-				modtype = 1,
-				mutator = "1",
-				name = "Zero-K test-10347",
-				shortname = "ZK",
-				version = "test-10347",
-			},
-		},
-		{
 			name = "2_Mountains_Battlefield.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1336498656",
@@ -48,6 +48,37 @@ local archiveCache = {
 				mapfile = "maps/2_Mountains_Battlefield.smf",
 				modtype = 3,
 				name = "2_Mountains_Battlefield",
+			},
+		},
+		{
+			name = "2c6fddf1feb8d10144d59e39140f0c19.sdp",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
+			modified = "1375769688",
+			checksum = "1650417393",
+			archivedata = {
+				description = "Zero-K",
+				modtype = 1,
+				mutator = "1",
+				name = "Zero-K test-11057",
+				shortname = "ZK",
+				version = "test-11057",
+			},
+		},
+		{
+			name = "4650fd0ab1a9d37a0a31765aa0e907d8.sdp",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
+			modified = "1376231778",
+			checksum = "1290141718",
+			archivedata = {
+				description = "Digital Warfare!",
+				game = "Kernel Panic",
+				modtype = 1,
+				mutator = "Fixes for 95",
+				name = "Kernel Panic 4.5",
+				shortgame = "KP",
+				shortname = "KP",
+				url = "http://spring.clan-sy.com/wiki/Kernel_Panic",
+				version = "4.5",
 			},
 		},
 		{
@@ -62,17 +93,17 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "6465770c05e2397c801e958bed9d3a42.sdp",
+			name = "667c0a458b220cf48157a1f9f21e0faf.sdp",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
-			modified = "1370256826",
-			checksum = "1659821959",
+			modified = "1376051544",
+			checksum = "2098548757",
 			archivedata = {
 				description = "Zero-K",
 				modtype = 1,
 				mutator = "1",
-				name = "Zero-K test-10324",
+				name = "Zero-K test-11073",
 				shortname = "ZK",
-				version = "test-10324",
+				version = "test-11073",
 			},
 		},
 		{
@@ -87,6 +118,34 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "7d10328116b7ce91019a9fddc144f236.sdp",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
+			modified = "1376669739",
+			checksum = "4057036438",
+			archivedata = {
+				description = "Zero-K",
+				modtype = 1,
+				mutator = "1",
+				name = "Zero-K test-11134",
+				shortname = "ZK",
+				version = "test-11134",
+			},
+		},
+		{
+			name = "803e7dddc79bc95d52cd049e9dc53fa2.sdp",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
+			modified = "1376800519",
+			checksum = "1046653966",
+			archivedata = {
+				description = "Zero-K",
+				modtype = 1,
+				mutator = "1",
+				name = "Zero-K test-11144",
+				shortname = "ZK",
+				version = "test-11144",
+			},
+		},
+		{
 			name = "8862_Cooper_Hill_TNM02-V1.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1338057620",
@@ -98,9 +157,23 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "9e0d6fed09c9a6cab527bf25baf1f6a6.sdp",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
+			modified = "1376195870",
+			checksum = "2196342059",
+			archivedata = {
+				description = "Zero-K",
+				modtype = 1,
+				mutator = "1",
+				name = "Zero-K v1.1.8.2",
+				shortname = "ZK",
+				version = "v1.1.8.2",
+			},
+		},
+		{
 			name = "a43223c1fea2412fe1159fddb41ba7f1.sdp",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
-			modified = "1370268953",
+			modified = "1376245552",
 			checksum = "92907584",
 			archivedata = {
 				description = "Zero-K",
@@ -109,23 +182,6 @@ local archiveCache = {
 				name = "Zero-K v1.1.3.6",
 				shortname = "ZK",
 				version = "v1.1.3.6",
-			},
-		},
-		{
-			name = "aa27d2a990eae71a48c172a99606237b.sdp",
-			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
-			modified = "1370426865",
-			checksum = "4711",
-			archivedata = {
-				description = "Epic World War II RTS!",
-				game = "Spring: 1944",
-				modtype = 1,
-				mutator = "Official",
-				name = "Spring: 1944 v1.62 Operation Most III",
-				shortgame = "S44",
-				shortname = "S44",
-				url = "http://www.spring1944.net/",
-				version = "v1.62 Operation Most III",
 			},
 		},
 		{
@@ -162,17 +218,17 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "Air Force Command r50.sdz",
+			name = "Air Force Command r108.sdz",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
-			modified = "1352180971",
-			checksum = "3173508735",
+			modified = "1376800923",
+			checksum = "1502417423",
 			archivedata = {
 				description = "Mission Mutator",
 				modtype = 1,
-				name = "Air Force Command r50",
+				name = "Air Force Command r108",
 				shortname = "ZK",
 				depend = {
-					"Zero-K v1.0.10.8",
+					"Zero-K v1.1.8.2",
 				},
 			},
 		},
@@ -390,6 +446,17 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "Atuminoa.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1375798316",
+			checksum = "1508160736",
+			archivedata = {
+				mapfile = "Maps/Atuminoa.smf",
+				modtype = 3,
+				name = "Atuminoa",
+			},
+		},
+		{
 			name = "Avalanche-v2.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1338097595",
@@ -442,6 +509,22 @@ local archiveCache = {
 				mapfile = "maps/Badlands.smf",
 				modtype = 3,
 				name = "Badlands",
+			},
+		},
+		{
+			name = "balanced_annihilation-v7.76.sdz",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
+			modified = "1372176124",
+			checksum = "1774433758",
+			archivedata = {
+				description = "Moooooo!",
+				game = "Total Annihilation",
+				modtype = 1,
+				mutator = "Official",
+				name = "Balanced Annihilation V7.76",
+				shortgame = "TA",
+				shortname = "BA",
+				version = "V7.76",
 			},
 		},
 		{
@@ -500,6 +583,30 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "black_mescalin__3.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1372069397",
+			checksum = "257512745",
+			archivedata = {
+				author = "Picasso",
+				autoshowmetal = 1.000000,
+				description = "Small 8x8 map .",
+				extractorradius = 100.000000,
+				gravity = 130.000000,
+				mapfile = "maps/BlackMescalin.smf",
+				maphardness = 100.000000,
+				maxmetal = 0.330000,
+				modtype = 3,
+				name = "Black Mescalin  3",
+				notdeformable = 1.000000,
+				shortname = "Black Mesca",
+				tidalstrength = 0.000000,
+				version = "3",
+				voidground = 1.000000,
+				voidwater = 1.000000,
+			},
+		},
+		{
 			name = "Blend Warland.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1335155787",
@@ -533,17 +640,14 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "c00c7f33a770a186e9041194aaa719a8.sdp",
-			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
-			modified = "1370576304",
-			checksum = "3535080435",
+			name = "Brazillian_Battlefield_Remake_V2.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1372481315",
+			checksum = "1522782559",
 			archivedata = {
-				description = "Zero-K",
-				modtype = 1,
-				mutator = "1",
-				name = "Zero-K test-10367",
-				shortname = "ZK",
-				version = "test-10367",
+				mapfile = "maps/Brazillian_Battlefield_Remake_V2.smf",
+				modtype = 3,
+				name = "Brazillian_Battlefield_Remake_V2",
 			},
 		},
 		{
@@ -566,21 +670,6 @@ local archiveCache = {
 				mapfile = "maps/Canyon_Redux-v01.smf",
 				modtype = 3,
 				name = "Canyon_Redux-v01",
-			},
-		},
-		{
-			name = "Castle r13.sdz",
-			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
-			modified = "1361115836",
-			checksum = "1541282777",
-			archivedata = {
-				description = "Mission Mutator",
-				modtype = 1,
-				name = "Castle r13",
-				shortname = "Castle",
-				depend = {
-					"Zero-K v1.1.1.4",
-				},
 			},
 		},
 		{
@@ -760,6 +849,17 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "Cooper_Range-v1.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1371651883",
+			checksum = "2921381904",
+			archivedata = {
+				mapfile = "maps/Cooper_Range-v1.smf",
+				modtype = 3,
+				name = "Cooper_Range-v1",
+			},
+		},
+		{
 			name = "Cosmos.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1342430447",
@@ -815,34 +915,6 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "d1966b120fbb1ce0825bc44c6c682486.sdp",
-			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
-			modified = "1370429411",
-			checksum = "3426815022",
-			archivedata = {
-				description = "Zero-K",
-				modtype = 1,
-				mutator = "1",
-				name = "Zero-K test-10361",
-				shortname = "ZK",
-				version = "test-10361",
-			},
-		},
-		{
-			name = "d239d734e644c59aead53de3458673ba.sdp",
-			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
-			modified = "1370275942",
-			checksum = "1441410450",
-			archivedata = {
-				description = "Zero-K",
-				modtype = 1,
-				mutator = "1",
-				name = "Zero-K v1.1.4.5",
-				shortname = "ZK",
-				version = "v1.1.4.5",
-			},
-		},
-		{
 			name = "DarkSide_Remake.sd7",
 			path = [[J:\Games\Ren'Py\Projects\SpringLink test\spring\maps\]],
 			modified = "1329391069",
@@ -887,6 +959,17 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "DeadLands.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1372242807",
+			checksum = "2284576554",
+			archivedata = {
+				mapfile = "maps/DeadLands.smf",
+				modtype = 3,
+				name = "DeadLands",
+			},
+		},
+		{
 			name = "Deadlock-v1.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1333685288",
@@ -895,6 +978,20 @@ local archiveCache = {
 				mapfile = "maps/Deadlock-v1.smf",
 				modtype = 3,
 				name = "Deadlock-v1",
+			},
+		},
+		{
+			name = "deb4d4666ae7511df14a705e897ae549.sdp",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
+			modified = "1376721432",
+			checksum = "4217474460",
+			archivedata = {
+				description = "Zero-K",
+				modtype = 1,
+				mutator = "1",
+				name = "Zero-K test-11139",
+				shortname = "ZK",
+				version = "test-11139",
 			},
 		},
 		{
@@ -1074,17 +1171,17 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "e4122e7e074f1cf3af402444cb7c9df2.sdp",
+			name = "e9094c70f1856070539e36d025bf6fa6.sdp",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
-			modified = "1370270540",
-			checksum = "3358684276",
+			modified = "1376122646",
+			checksum = "1133659971",
 			archivedata = {
 				description = "Zero-K",
 				modtype = 1,
 				mutator = "1",
-				name = "Zero-K test-10330",
+				name = "Zero-K v1.1.8.0",
 				shortname = "ZK",
-				version = "test-10330",
+				version = "v1.1.8.0",
 			},
 		},
 		{
@@ -1221,17 +1318,31 @@ local archiveCache = {
 			},
 		},
 		{
-			name = "f2362862230dd7e1dba14dc722c009ca.sdp",
+			name = "f1c9f609c32ab0b2367f62f1b6c20c0b.sdp",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
-			modified = "1370317678",
-			checksum = "2493629534",
+			modified = "1376134794",
+			checksum = "1632253541",
 			archivedata = {
 				description = "Zero-K",
 				modtype = 1,
 				mutator = "1",
-				name = "Zero-K test-10335",
+				name = "Zero-K v1.1.8.1",
 				shortname = "ZK",
-				version = "test-10335",
+				version = "v1.1.8.1",
+			},
+		},
+		{
+			name = "f918c58a0b8c3621263dc4707bba9fb8.sdp",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\packages\]],
+			modified = "1376670819",
+			checksum = "519563382",
+			archivedata = {
+				description = "Zero-K",
+				modtype = 1,
+				mutator = "1",
+				name = "Zero-K test-11135",
+				shortname = "ZK",
+				version = "test-11135",
 			},
 		},
 		{
@@ -1334,6 +1445,28 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "forgottentemplev10.sdz",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1373212243",
+			checksum = "3417933164",
+			archivedata = {
+				mapfile = "maps/ForgottenTemplev10.smf",
+				modtype = 3,
+				name = "ForgottenTemplev10",
+			},
+		},
+		{
+			name = "forgottentemplev11.sdz",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1373212739",
+			checksum = "3057675398",
+			archivedata = {
+				mapfile = "maps/ForgottenTemplev11.smf",
+				modtype = 3,
+				name = "ForgottenTemplev11",
+			},
+		},
+		{
 			name = "Four_Lakes_V2.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1337966783",
@@ -1391,8 +1524,8 @@ local archiveCache = {
 		{
 			name = "gasl.sdd",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
-			modified = "1368351733",
-			checksum = "2839983306",
+			modified = "1376139885",
+			checksum = "3791632742",
 			archivedata = {
 				description = "True <3",
 				game = "GASL",
@@ -1503,6 +1636,17 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "Grts_Messa_008.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1371733412",
+			checksum = "540011576",
+			archivedata = {
+				mapfile = "maps/Grts_Messa_008.smf",
+				modtype = 3,
+				name = "Grts_Messa_008",
+			},
+		},
+		{
 			name = "grts_rivermouth_004.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1338909412",
@@ -1607,6 +1751,38 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "Hills_and_Valleys-v08.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1371650979",
+			checksum = "3578264980",
+			archivedata = {
+				mapfile = "maps/Hills_and_Valleys-v08.smf",
+				modtype = 3,
+				name = "Hills_and_Valleys-v08",
+			},
+		},
+		{
+			name = "hohenheim_v3.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1371614971",
+			checksum = "2932344195",
+			archivedata = {
+				author = "Cheesecan",
+				autoshowmetal = 1.000000,
+				extractorradius = 100.000000,
+				gravity = 130.000000,
+				mapfile = "maps/Hohenheim-v3.smf",
+				maphardness = 800.000000,
+				maxmetal = 2.000000,
+				modtype = 3,
+				name = "Hohenheim V3",
+				notdeformable = 0.000000,
+				tidalstrength = 15.000000,
+				version = "V3",
+				voidwater = 0.000000,
+			},
+		},
+		{
 			name = "Hotlips001.sdz",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1331996364",
@@ -1673,6 +1849,17 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "iceland_v1.sdz",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1371735099",
+			checksum = "2130017918",
+			archivedata = {
+				mapfile = "maps/Iceland_v1.smf",
+				modtype = 3,
+				name = "Iceland_v1",
+			},
+		},
+		{
 			name = "Icy%20Run.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1341061859",
@@ -1703,6 +1890,17 @@ local archiveCache = {
 				mapfile = "maps/Icy Run v2.smf",
 				modtype = 3,
 				name = "Icy Run v2",
+			},
+		},
+		{
+			name = "Imperfection.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1371727052",
+			checksum = "232257606",
+			archivedata = {
+				mapfile = "maps/Imperfection.smf",
+				modtype = 3,
+				name = "Imperfection",
 			},
 		},
 		{
@@ -1998,6 +2196,28 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "Marble_Madness_Map.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1376231780",
+			checksum = "3905149688",
+			archivedata = {
+				mapfile = "maps/Marble_Madness_Map.smf",
+				modtype = 3,
+				name = "Marble_Madness_Map",
+			},
+		},
+		{
+			name = "Melange_v1.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1371730897",
+			checksum = "102892764",
+			archivedata = {
+				mapfile = "maps/Melange_v1.smf",
+				modtype = 3,
+				name = "Melange_v1",
+			},
+		},
+		{
 			name = "Mercury_v1.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1327077777",
@@ -2028,6 +2248,17 @@ local archiveCache = {
 				mapfile = "maps/Mini_DeltaSiegeDry_v04.smf",
 				modtype = 3,
 				name = "Mini_DeltaSiegeDry_v04",
+			},
+		},
+		{
+			name = "Mini_SpeedMetal.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1376051546",
+			checksum = "861690815",
+			archivedata = {
+				mapfile = "maps/Mini_SpeedMetal.smf",
+				modtype = 3,
+				name = "Mini_SpeedMetal",
 			},
 		},
 		{
@@ -2108,6 +2339,36 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "onyxcauldron1.5.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1374761124",
+			checksum = "768181130",
+			archivedata = {
+				mapfile = "maps/OnyxCauldron1.5.smf",
+				modtype = 3,
+				name = "OnyxCauldron1.5",
+			},
+		},
+		{
+			name = "orbitalstrike_test.sdd",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
+			modified = "1376204536",
+			checksum = "3568577581",
+			archivedata = {
+				description = "Basic game to help new modders",
+				game = "STG",
+				modtype = 1,
+				name = "Orbital Strike Test 0.1",
+				shortgame = "STG",
+				shortname = "STG",
+				url = "code.google.com/p/springtutorialgame",
+				version = "0.1",
+				depend = {
+					"cursors.sdz",
+				},
+			},
+		},
+		{
 			name = "Painted_Desert_Remake_V2.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1355758271",
@@ -2149,6 +2410,22 @@ local archiveCache = {
 				mapfile = "maps/Porky_Islands.smf",
 				modtype = 3,
 				name = "Porky_Islands",
+			},
+		},
+		{
+			name = "publish_mission_temp.sdz",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
+			modified = "1376814896",
+			checksum = "1300395032",
+			archivedata = {
+				description = "Mission Mutator",
+				modtype = 1,
+				name = "Air Force Command",
+				shortbasename = "Zero-K v",
+				shortname = "ZK",
+				depend = {
+					"Zero-K v1.1.8.2",
+				},
 			},
 		},
 		{
@@ -2351,6 +2628,50 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "sapphireshores_dry_v2.1.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1375802382",
+			checksum = "2040901479",
+			archivedata = {
+				mapfile = "maps/SapphireShores_Dry_V2.1.smf",
+				modtype = 3,
+				name = "SapphireShores_Dry_V2.1",
+			},
+		},
+		{
+			name = "sapphireshores_duo_v2.1.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1374929832",
+			checksum = "2060388727",
+			archivedata = {
+				mapfile = "maps/SapphireShores_Duo_V2.1.smf",
+				modtype = 3,
+				name = "SapphireShores_Duo_V2.1",
+			},
+		},
+		{
+			name = "sapphireshores_v2.1.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1372481461",
+			checksum = "3598922462",
+			archivedata = {
+				mapfile = "maps/SapphireShores_V2.1.smf",
+				modtype = 3,
+				name = "SapphireShores_V2.1",
+			},
+		},
+		{
+			name = "sapphireshoresduo_beta0.1.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1372359218",
+			checksum = "877004151",
+			archivedata = {
+				mapfile = "maps/SapphireShoresDuo_Beta0.1.smf",
+				modtype = 3,
+				name = "SapphireShoresDuo_Beta0.1",
+			},
+		},
+		{
 			name = "ScorpioBattleground.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1331874073",
@@ -2521,7 +2842,7 @@ local archiveCache = {
 		{
 			name = "SpringTutorialGame.sdz",
 			path = [[J:\Games\Ren'Py\Projects\SpringLink test\spring\games\]],
-			modified = "1371138663",
+			modified = "1371143032",
 			checksum = "3094103154",
 			archivedata = {
 				description = "Basic game to help new modders",
@@ -2846,6 +3167,21 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "THISkre.sdd",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
+			modified = "1376933727",
+			checksum = "2216456519",
+			archivedata = {
+				description = "Space Combat",
+				game = "THIS",
+				modtype = 1,
+				name = "THIS KRE $VERSION",
+				shortgame = "THIS",
+				shortname = "THIS",
+				version = "KRE $VERSION",
+			},
+		},
+		{
 			name = "THISspace.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
 			modified = "1331357020",
@@ -2931,6 +3267,17 @@ local archiveCache = {
 				mapfile = "maps/Torn Islands Remake.smf",
 				modtype = 3,
 				name = "Torn Islands Remake",
+			},
+		},
+		{
+			name = "Transbaal.sdz",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1376970549",
+			checksum = "1009869146",
+			archivedata = {
+				mapfile = "maps/Transbaal.smf",
+				modtype = 3,
+				name = "Transbaal",
 			},
 		},
 		{
@@ -3063,6 +3410,36 @@ local archiveCache = {
 				mapfile = "maps/Tundra.smf",
 				modtype = 3,
 				name = "Tundra",
+			},
+		},
+		{
+			name = "Tutorial - Running Start r177.sdz",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
+			modified = "1372611988",
+			checksum = "2330620461",
+			archivedata = {
+				description = "Mission Mutator",
+				modtype = 1,
+				name = "Tutorial - Running Start r177",
+				shortname = "ZK",
+				depend = {
+					"Zero-K v1.1.6.8",
+				},
+			},
+		},
+		{
+			name = "Tutorial 2 - A Day Out r108.sdz",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
+			modified = "1372760310",
+			checksum = "434476575",
+			archivedata = {
+				description = "Mission Mutator",
+				modtype = 1,
+				name = "Tutorial 2 - A Day Out r108",
+				shortname = "ZK",
+				depend = {
+					"Zero-K v1.1.6.8",
+				},
 			},
 		},
 		{
@@ -3209,10 +3586,21 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "Zion_v1.sd7",
+			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\maps\]],
+			modified = "1374385033",
+			checksum = "676744020",
+			archivedata = {
+				mapfile = "maps/Zion_v1.smf",
+				modtype = 3,
+				name = "Zion_v1",
+			},
+		},
+		{
 			name = "zk.sdd",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
-			modified = "1368845405",
-			checksum = "1865835201",
+			modified = "1376755889",
+			checksum = "2936625660",
 			archivedata = {
 				description = "Zero-K",
 				modtype = 1,
@@ -3224,13 +3612,7 @@ local archiveCache = {
 		},
 	},
 
-	brokenArchives = {  -- count = 2
-		{
-			name = "gun wings test 4.sd7",
-			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],
-			modified = "1209586247",
-			problem = "missing modinfo.lua/mapinfo.lua",
-		},
+	brokenArchives = {  -- count = 1
 		{
 			name = "x-plane.sd7",
 			path = [[C:\Users\Rattlesnark\Documents\My Games\Spring\games\]],

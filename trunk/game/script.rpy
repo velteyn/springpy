@@ -6,14 +6,15 @@ init:
         import sys
         import traceback
         
-        SPRING_DIR = sys.path[0] + "/spring"
-        EXECUTABLE_DIR = SPRING_DIR + "/spring.exe"
+        SPRING_DIR = sys.path[0] + "/spring"           
+        #SPRING_DIR = renpy.loader.transfn("../spring")
+        EXECUTABLE_PATH = SPRING_DIR + "/spring.exe"
         SCRIPT_FILENAME = "script_pytest.txt"
-        SCRIPT_DIR = SPRING_DIR + "/" + SCRIPT_FILENAME
+        SCRIPT_PATH = SPRING_DIR + "/" + SCRIPT_FILENAME
         SCRIPT_FILENAME_TEMP = "_script.txt"
-        SCRIPT_DIR_TEMP = SPRING_DIR + "/" + SCRIPT_FILENAME_TEMP
-        RESULTS_DIR = SPRING_DIR + "/" + "results.py"
-        RESULTS_DIR_COMPILED = SPRING_DIR + "/" + "results.pyo" # dunno if necessary to delete this as well
+        SCRIPT_PATH_TEMP = SPRING_DIR + "/" + SCRIPT_FILENAME_TEMP
+        RESULTS_PATH = SPRING_DIR + "/" + "results.py"
+        RESULTS_PATH_COMPILED = SPRING_DIR + "/" + "results.pyo" # dunno if necessary to delete this as well
      
         sys.path.append(SPRING_DIR)
     
@@ -54,20 +55,20 @@ label run_spring:
     python:
             # first get rid of the existing results file if there's one
             try:
-                os.remove(RESULTS_DIR)
-                os.remove(RESULTS_DIR_COMPILED)
+                os.remove(RESULTS_PATH)
+                os.remove(RESULTS_PATH_COMPILED)
             except:
                 print("Warning: failed to delete results file(s)")
                 print("File may already not exist, or may be in use")
-            scriptRaw = open(SCRIPT_DIR, 'r')
+            scriptRaw = open(SCRIPT_PATH, 'r')
             s = ""
             for line in scriptRaw:
                 s += line
             s = s % {'playername': 'Threonine', 'ainame': 'Evil Bot'}
             scriptRaw.close()
-            script = open(SCRIPT_DIR_TEMP, 'w')
+            script = open(SCRIPT_PATH_TEMP, 'w')
             script.write(s)
             script.close()
     "Launching spring.exe...{nw}"
-    $ subprocess.call([EXECUTABLE_DIR, SCRIPT_DIR_TEMP])
+    $ subprocess.call([EXECUTABLE_PATH, SCRIPT_PATH_TEMP])
     return
