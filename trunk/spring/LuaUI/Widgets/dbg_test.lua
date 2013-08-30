@@ -13,5 +13,5 @@ end
 function widget:Initialize()
   local clock = os.clock()
   Spring.Echo("bla", clock)
-  WG.SavePythonDict("results.py", {clock = clock}, nil, {raw = true})
+  WG.SavePythonDict("results.py", {clock = clock}, "stuff", {endOfFile = true})
 end
