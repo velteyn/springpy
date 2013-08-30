@@ -26,13 +26,12 @@ label start:
         python:
             loadFromSpringSuccessful = False
             try:
-                import results       # make sure this is the same as the file name of what your Spring gadget/widget outputs!
-                reload(results)      # importing only works once, so reload is required for subsequent attempts to read module
-                testValue = results.clock
+                execfile(RESULTS_PATH)
+                testValue = stuff["clock"]
                 print(testValue)
                 loadFromSpringSuccessful = True
             except:
-                traceback.print_last()
+                traceback.print_stack()
                 print("Failed to load data from Spring")
         if loadFromSpringSuccessful == True:
             "os.clock() value read as: [testValue]\nNow returning to main menu." 
