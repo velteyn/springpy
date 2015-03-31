@@ -1,0 +1,1 @@
+This project contains example code for interfacing between a game running on the Spring RTS engine and another on the Ren'Py visual novel engine, for the purposes of combining them into a single game.
